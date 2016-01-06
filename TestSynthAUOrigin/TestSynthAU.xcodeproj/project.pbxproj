@@ -115,13 +115,24 @@
 		83AB001D1826B3AC00B3A964 /* CAVectorUnit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83AB001A1826B3AC00B3A964 /* CAVectorUnit.cpp */; };
 		83E4DC1A1863684F0099A1F5 /* dRowAudio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83E4DBB0186368140099A1F5 /* dRowAudio.cpp */; };
 		87994E06ADFE3AAF08503DB5 /* juce_data_structures.mm in Sources */ = {isa = PBXBuildFile; fileRef = 054C3DE3B2831A3F69BBC8AD /* juce_data_structures.mm */; };
+		8B0A88451C3D77CF0001C689 /* Bass Drum In 6_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B0A883F1C3D77CF0001C689 /* Bass Drum In 6_1.wav */; };
+		8B0A88461C3D77CF0001C689 /* Bass Drum In 6_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B0A88401C3D77CF0001C689 /* Bass Drum In 6_2.wav */; };
+		8B0A88471C3D77CF0001C689 /* Bass Drum In 6_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B0A88411C3D77CF0001C689 /* Bass Drum In 6_3.wav */; };
+		8B0A88481C3D77CF0001C689 /* Bass Drum In 6_4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B0A88421C3D77CF0001C689 /* Bass Drum In 6_4.wav */; };
+		8B0A88491C3D77CF0001C689 /* Bass Drum In 6_5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B0A88431C3D77CF0001C689 /* Bass Drum In 6_5.wav */; };
+		8B0A884A1C3D77CF0001C689 /* Bass Drum In 6_6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B0A88441C3D77CF0001C689 /* Bass Drum In 6_6.wav */; };
+		8B0A88511C3D77D60001C689 /* Bass Drum Out 6_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B0A884B1C3D77D60001C689 /* Bass Drum Out 6_1.wav */; };
+		8B0A88521C3D77D60001C689 /* Bass Drum Out 6_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B0A884C1C3D77D60001C689 /* Bass Drum Out 6_2.wav */; };
+		8B0A88531C3D77D60001C689 /* Bass Drum Out 6_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B0A884D1C3D77D60001C689 /* Bass Drum Out 6_3.wav */; };
+		8B0A88541C3D77D60001C689 /* Bass Drum Out 6_4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B0A884E1C3D77D60001C689 /* Bass Drum Out 6_4.wav */; };
+		8B0A88551C3D77D60001C689 /* Bass Drum Out 6_5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B0A884F1C3D77D60001C689 /* Bass Drum Out 6_5.wav */; };
+		8B0A88561C3D77D60001C689 /* Bass Drum Out 6_6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B0A88501C3D77D60001C689 /* Bass Drum Out 6_6.wav */; };
 		8B6C6B451BE7A0B300254CF5 /* Floor Tom 6_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B6C6B3E1BE7A0B300254CF5 /* Floor Tom 6_1.wav */; };
 		8B6C6B461BE7A0B300254CF5 /* Floor Tom 6_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B6C6B3F1BE7A0B300254CF5 /* Floor Tom 6_2.wav */; };
 		8B6C6B471BE7A0B300254CF5 /* Floor Tom 6_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B6C6B401BE7A0B300254CF5 /* Floor Tom 6_3.wav */; };
 		8B6C6B481BE7A0B300254CF5 /* Floor Tom 6_4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B6C6B411BE7A0B300254CF5 /* Floor Tom 6_4.wav */; };
 		8B6C6B491BE7A0B300254CF5 /* Floor Tom 6_5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B6C6B421BE7A0B300254CF5 /* Floor Tom 6_5.wav */; };
 		8B6C6B4A1BE7A0B300254CF5 /* Floor Tom 6_6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B6C6B431BE7A0B300254CF5 /* Floor Tom 6_6.wav */; };
-		8B8600911C1049A80083D9FD /* Bass Drum In 1_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B8600931C1049A80083D9FD /* Bass Drum In 1_1.wav */; };
 		8BA491A21C0F435C00FD0645 /* Snare Down 6_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BA4919C1C0F435C00FD0645 /* Snare Down 6_1.wav */; };
 		8BA491A31C0F435C00FD0645 /* Snare Down 6_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BA4919D1C0F435C00FD0645 /* Snare Down 6_2.wav */; };
 		8BA491A41C0F435C00FD0645 /* Snare Down 6_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BA4919E1C0F435C00FD0645 /* Snare Down 6_3.wav */; };
@@ -229,79 +240,6 @@
 		8BE9C1851C35A59C008D25F1 /* Hats Rock Sizzle Room R 6_4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BE9C17F1C35A59C008D25F1 /* Hats Rock Sizzle Room R 6_4.wav */; };
 		8BE9C1861C35A59C008D25F1 /* Hats Rock Sizzle Room R 6_5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BE9C1801C35A59C008D25F1 /* Hats Rock Sizzle Room R 6_5.wav */; };
 		8BE9C1871C35A59C008D25F1 /* Hats Rock Sizzle Room R 6_6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BE9C1811C35A59C008D25F1 /* Hats Rock Sizzle Room R 6_6.wav */; };
-		8BF9445B1C0F0FB1008A98E8 /* Bass Drum In 1_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944541C0F0FB1008A98E8 /* Bass Drum In 1_2.wav */; };
-		8BF9445C1C0F0FB1008A98E8 /* Bass Drum In 1_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944551C0F0FB1008A98E8 /* Bass Drum In 1_3.wav */; };
-		8BF9445D1C0F0FB1008A98E8 /* Bass Drum In 1_4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944561C0F0FB1008A98E8 /* Bass Drum In 1_4.wav */; };
-		8BF9445E1C0F0FB1008A98E8 /* Bass Drum In 1_5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944571C0F0FB1008A98E8 /* Bass Drum In 1_5.wav */; };
-		8BF9445F1C0F0FB1008A98E8 /* Bass Drum In 1_6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944581C0F0FB1008A98E8 /* Bass Drum In 1_6.wav */; };
-		8BF944601C0F0FB1008A98E8 /* Bass Drum In 1_7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944591C0F0FB1008A98E8 /* Bass Drum In 1_7.wav */; };
-		8BF944681C0F0FB9008A98E8 /* Bass Drum Out 1_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944611C0F0FB9008A98E8 /* Bass Drum Out 1_1.wav */; };
-		8BF944691C0F0FB9008A98E8 /* Bass Drum Out 1_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944621C0F0FB9008A98E8 /* Bass Drum Out 1_2.wav */; };
-		8BF9446A1C0F0FB9008A98E8 /* Bass Drum Out 1_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944631C0F0FB9008A98E8 /* Bass Drum Out 1_3.wav */; };
-		8BF9446B1C0F0FB9008A98E8 /* Bass Drum Out 1_4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944641C0F0FB9008A98E8 /* Bass Drum Out 1_4.wav */; };
-		8BF9446C1C0F0FB9008A98E8 /* Bass Drum Out 1_5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944651C0F0FB9008A98E8 /* Bass Drum Out 1_5.wav */; };
-		8BF9446D1C0F0FB9008A98E8 /* Bass Drum Out 1_6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944661C0F0FB9008A98E8 /* Bass Drum Out 1_6.wav */; };
-		8BF9446E1C0F0FB9008A98E8 /* Bass Drum Out 1_7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944671C0F0FB9008A98E8 /* Bass Drum Out 1_7.wav */; };
-		8BF944751C0F0FC2008A98E8 /* Bass Drum In 2_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF9446F1C0F0FC2008A98E8 /* Bass Drum In 2_1.wav */; };
-		8BF944761C0F0FC2008A98E8 /* Bass Drum In 2_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944701C0F0FC2008A98E8 /* Bass Drum In 2_2.wav */; };
-		8BF944771C0F0FC2008A98E8 /* Bass Drum In 2_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944711C0F0FC2008A98E8 /* Bass Drum In 2_3.wav */; };
-		8BF944781C0F0FC2008A98E8 /* Bass Drum In 2_4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944721C0F0FC2008A98E8 /* Bass Drum In 2_4.wav */; };
-		8BF944791C0F0FC2008A98E8 /* Bass Drum In 2_5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944731C0F0FC2008A98E8 /* Bass Drum In 2_5.wav */; };
-		8BF9447A1C0F0FC2008A98E8 /* Bass Drum In 2_6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944741C0F0FC2008A98E8 /* Bass Drum In 2_6.wav */; };
-		8BF944811C0F0FCA008A98E8 /* Bass Drum Out 2_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF9447B1C0F0FCA008A98E8 /* Bass Drum Out 2_1.wav */; };
-		8BF944821C0F0FCA008A98E8 /* Bass Drum Out 2_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF9447C1C0F0FCA008A98E8 /* Bass Drum Out 2_2.wav */; };
-		8BF944831C0F0FCA008A98E8 /* Bass Drum Out 2_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF9447D1C0F0FCA008A98E8 /* Bass Drum Out 2_3.wav */; };
-		8BF944841C0F0FCA008A98E8 /* Bass Drum Out 2_4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF9447E1C0F0FCA008A98E8 /* Bass Drum Out 2_4.wav */; };
-		8BF944851C0F0FCA008A98E8 /* Bass Drum Out 2_5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF9447F1C0F0FCA008A98E8 /* Bass Drum Out 2_5.wav */; };
-		8BF944861C0F0FCA008A98E8 /* Bass Drum Out 2_6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944801C0F0FCA008A98E8 /* Bass Drum Out 2_6.wav */; };
-		8BF9448D1C0F0FD2008A98E8 /* Bass Drum In 3_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944871C0F0FD2008A98E8 /* Bass Drum In 3_1.wav */; };
-		8BF9448E1C0F0FD2008A98E8 /* Bass Drum In 3_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944881C0F0FD2008A98E8 /* Bass Drum In 3_2.wav */; };
-		8BF9448F1C0F0FD2008A98E8 /* Bass Drum In 3_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944891C0F0FD2008A98E8 /* Bass Drum In 3_3.wav */; };
-		8BF944901C0F0FD2008A98E8 /* Bass Drum In 3_4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF9448A1C0F0FD2008A98E8 /* Bass Drum In 3_4.wav */; };
-		8BF944911C0F0FD2008A98E8 /* Bass Drum In 3_5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF9448B1C0F0FD2008A98E8 /* Bass Drum In 3_5.wav */; };
-		8BF944921C0F0FD2008A98E8 /* Bass Drum In 3_6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF9448C1C0F0FD2008A98E8 /* Bass Drum In 3_6.wav */; };
-		8BF944991C0F0FD9008A98E8 /* Bass Drum Out 3_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944931C0F0FD9008A98E8 /* Bass Drum Out 3_1.wav */; };
-		8BF9449A1C0F0FD9008A98E8 /* Bass Drum Out 3_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944941C0F0FD9008A98E8 /* Bass Drum Out 3_2.wav */; };
-		8BF9449B1C0F0FD9008A98E8 /* Bass Drum Out 3_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944951C0F0FD9008A98E8 /* Bass Drum Out 3_3.wav */; };
-		8BF9449C1C0F0FD9008A98E8 /* Bass Drum Out 3_4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944961C0F0FD9008A98E8 /* Bass Drum Out 3_4.wav */; };
-		8BF9449D1C0F0FD9008A98E8 /* Bass Drum Out 3_5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944971C0F0FD9008A98E8 /* Bass Drum Out 3_5.wav */; };
-		8BF9449E1C0F0FD9008A98E8 /* Bass Drum Out 3_6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944981C0F0FD9008A98E8 /* Bass Drum Out 3_6.wav */; };
-		8BF944A51C0F0FE2008A98E8 /* Bass Drum In 4_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF9449F1C0F0FE2008A98E8 /* Bass Drum In 4_1.wav */; };
-		8BF944A61C0F0FE2008A98E8 /* Bass Drum In 4_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944A01C0F0FE2008A98E8 /* Bass Drum In 4_2.wav */; };
-		8BF944A71C0F0FE2008A98E8 /* Bass Drum In 4_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944A11C0F0FE2008A98E8 /* Bass Drum In 4_3.wav */; };
-		8BF944A81C0F0FE2008A98E8 /* Bass Drum In 4_4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944A21C0F0FE2008A98E8 /* Bass Drum In 4_4.wav */; };
-		8BF944A91C0F0FE2008A98E8 /* Bass Drum In 4_5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944A31C0F0FE2008A98E8 /* Bass Drum In 4_5.wav */; };
-		8BF944AA1C0F0FE2008A98E8 /* Bass Drum In 4_6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944A41C0F0FE2008A98E8 /* Bass Drum In 4_6.wav */; };
-		8BF944B11C0F0FE8008A98E8 /* Bass Drum Out 4_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944AB1C0F0FE8008A98E8 /* Bass Drum Out 4_1.wav */; };
-		8BF944B21C0F0FE8008A98E8 /* Bass Drum Out 4_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944AC1C0F0FE8008A98E8 /* Bass Drum Out 4_2.wav */; };
-		8BF944B31C0F0FE8008A98E8 /* Bass Drum Out 4_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944AD1C0F0FE8008A98E8 /* Bass Drum Out 4_3.wav */; };
-		8BF944B41C0F0FE8008A98E8 /* Bass Drum Out 4_4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944AE1C0F0FE8008A98E8 /* Bass Drum Out 4_4.wav */; };
-		8BF944B51C0F0FE8008A98E8 /* Bass Drum Out 4_5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944AF1C0F0FE8008A98E8 /* Bass Drum Out 4_5.wav */; };
-		8BF944B61C0F0FE8008A98E8 /* Bass Drum Out 4_6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944B01C0F0FE8008A98E8 /* Bass Drum Out 4_6.wav */; };
-		8BF944BD1C0F0FF2008A98E8 /* Bass Drum In 5_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944B71C0F0FF2008A98E8 /* Bass Drum In 5_1.wav */; };
-		8BF944BE1C0F0FF2008A98E8 /* Bass Drum In 5_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944B81C0F0FF2008A98E8 /* Bass Drum In 5_2.wav */; };
-		8BF944BF1C0F0FF2008A98E8 /* Bass Drum In 5_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944B91C0F0FF2008A98E8 /* Bass Drum In 5_3.wav */; };
-		8BF944C01C0F0FF2008A98E8 /* Bass Drum In 5_4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944BA1C0F0FF2008A98E8 /* Bass Drum In 5_4.wav */; };
-		8BF944C11C0F0FF2008A98E8 /* Bass Drum In 5_5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944BB1C0F0FF2008A98E8 /* Bass Drum In 5_5.wav */; };
-		8BF944C21C0F0FF2008A98E8 /* Bass Drum In 5_6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944BC1C0F0FF2008A98E8 /* Bass Drum In 5_6.wav */; };
-		8BF944C91C0F0FF9008A98E8 /* Bass Drum Out 5_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944C31C0F0FF9008A98E8 /* Bass Drum Out 5_1.wav */; };
-		8BF944CA1C0F0FF9008A98E8 /* Bass Drum Out 5_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944C41C0F0FF9008A98E8 /* Bass Drum Out 5_2.wav */; };
-		8BF944CB1C0F0FF9008A98E8 /* Bass Drum Out 5_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944C51C0F0FF9008A98E8 /* Bass Drum Out 5_3.wav */; };
-		8BF944CC1C0F0FF9008A98E8 /* Bass Drum Out 5_4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944C61C0F0FF9008A98E8 /* Bass Drum Out 5_4.wav */; };
-		8BF944CD1C0F0FF9008A98E8 /* Bass Drum Out 5_5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944C71C0F0FF9008A98E8 /* Bass Drum Out 5_5.wav */; };
-		8BF944CE1C0F0FF9008A98E8 /* Bass Drum Out 5_6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944C81C0F0FF9008A98E8 /* Bass Drum Out 5_6.wav */; };
-		8BF944D51C0F1001008A98E8 /* Bass Drum In 6_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944CF1C0F1001008A98E8 /* Bass Drum In 6_1.wav */; };
-		8BF944D61C0F1001008A98E8 /* Bass Drum In 6_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944D01C0F1001008A98E8 /* Bass Drum In 6_2.wav */; };
-		8BF944D71C0F1001008A98E8 /* Bass Drum In 6_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944D11C0F1001008A98E8 /* Bass Drum In 6_3.wav */; };
-		8BF944D81C0F1001008A98E8 /* Bass Drum In 6_4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944D21C0F1001008A98E8 /* Bass Drum In 6_4.wav */; };
-		8BF944D91C0F1001008A98E8 /* Bass Drum In 6_5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944D31C0F1001008A98E8 /* Bass Drum In 6_5.wav */; };
-		8BF944DA1C0F1001008A98E8 /* Bass Drum In 6_6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944D41C0F1001008A98E8 /* Bass Drum In 6_6.wav */; };
-		8BF944E11C0F1009008A98E8 /* Bass Drum Out 6_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944DB1C0F1009008A98E8 /* Bass Drum Out 6_1.wav */; };
-		8BF944E21C0F1009008A98E8 /* Bass Drum Out 6_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944DC1C0F1009008A98E8 /* Bass Drum Out 6_2.wav */; };
-		8BF944E31C0F1009008A98E8 /* Bass Drum Out 6_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944DD1C0F1009008A98E8 /* Bass Drum Out 6_3.wav */; };
-		8BF944E41C0F1009008A98E8 /* Bass Drum Out 6_4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944DE1C0F1009008A98E8 /* Bass Drum Out 6_4.wav */; };
-		8BF944E51C0F1009008A98E8 /* Bass Drum Out 6_5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944DF1C0F1009008A98E8 /* Bass Drum Out 6_5.wav */; };
-		8BF944E61C0F1009008A98E8 /* Bass Drum Out 6_6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BF944E01C0F1009008A98E8 /* Bass Drum Out 6_6.wav */; };
 		8BFBC9541BE78B740062BE31 /* High Tom 6_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BFBC94E1BE78B740062BE31 /* High Tom 6_1.wav */; };
 		8BFBC9551BE78B740062BE31 /* High Tom 6_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BFBC94F1BE78B740062BE31 /* High Tom 6_2.wav */; };
 		8BFBC9561BE78B740062BE31 /* High Tom 6_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BFBC9501BE78B740062BE31 /* High Tom 6_3.wav */; };
@@ -1166,13 +1104,24 @@
 		89E2E6BA6057311E66E8A8BF /* juce_ArrayAllocationBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = juce_ArrayAllocationBase.h; path = JuceLibraryCode/modules/juce_core/containers/juce_ArrayAllocationBase.h; sourceTree = SOURCE_ROOT; };
 		8AE97D16E9DA460011B379BA /* juce_DropShadower.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = juce_DropShadower.h; path = JuceLibraryCode/modules/juce_gui_basics/misc/juce_DropShadower.h; sourceTree = SOURCE_ROOT; };
 		8AEC8C684E53D6E14FC97605 /* juce_win32_HiddenMessageWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = juce_win32_HiddenMessageWindow.h; path = JuceLibraryCode/modules/juce_events/native/juce_win32_HiddenMessageWindow.h; sourceTree = SOURCE_ROOT; };
+		8B0A883F1C3D77CF0001C689 /* Bass Drum In 6_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 6_1.wav"; path = "../../../../../../../Music/Logic/FYP_Drums_Session1_Shells/BassDrumFiles/Standard Hits/Drum Recording Session 1_BDrum100_128/In/Bass Drum In 6_1.wav"; sourceTree = "<group>"; };
+		8B0A88401C3D77CF0001C689 /* Bass Drum In 6_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 6_2.wav"; path = "../../../../../../../Music/Logic/FYP_Drums_Session1_Shells/BassDrumFiles/Standard Hits/Drum Recording Session 1_BDrum100_128/In/Bass Drum In 6_2.wav"; sourceTree = "<group>"; };
+		8B0A88411C3D77CF0001C689 /* Bass Drum In 6_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 6_3.wav"; path = "../../../../../../../Music/Logic/FYP_Drums_Session1_Shells/BassDrumFiles/Standard Hits/Drum Recording Session 1_BDrum100_128/In/Bass Drum In 6_3.wav"; sourceTree = "<group>"; };
+		8B0A88421C3D77CF0001C689 /* Bass Drum In 6_4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 6_4.wav"; path = "../../../../../../../Music/Logic/FYP_Drums_Session1_Shells/BassDrumFiles/Standard Hits/Drum Recording Session 1_BDrum100_128/In/Bass Drum In 6_4.wav"; sourceTree = "<group>"; };
+		8B0A88431C3D77CF0001C689 /* Bass Drum In 6_5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 6_5.wav"; path = "../../../../../../../Music/Logic/FYP_Drums_Session1_Shells/BassDrumFiles/Standard Hits/Drum Recording Session 1_BDrum100_128/In/Bass Drum In 6_5.wav"; sourceTree = "<group>"; };
+		8B0A88441C3D77CF0001C689 /* Bass Drum In 6_6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 6_6.wav"; path = "../../../../../../../Music/Logic/FYP_Drums_Session1_Shells/BassDrumFiles/Standard Hits/Drum Recording Session 1_BDrum100_128/In/Bass Drum In 6_6.wav"; sourceTree = "<group>"; };
+		8B0A884B1C3D77D60001C689 /* Bass Drum Out 6_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 6_1.wav"; path = "../../../../../../../Music/Logic/FYP_Drums_Session1_Shells/BassDrumFiles/Standard Hits/Drum Recording Session 1_BDrum100_128/Out/Bass Drum Out 6_1.wav"; sourceTree = "<group>"; };
+		8B0A884C1C3D77D60001C689 /* Bass Drum Out 6_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 6_2.wav"; path = "../../../../../../../Music/Logic/FYP_Drums_Session1_Shells/BassDrumFiles/Standard Hits/Drum Recording Session 1_BDrum100_128/Out/Bass Drum Out 6_2.wav"; sourceTree = "<group>"; };
+		8B0A884D1C3D77D60001C689 /* Bass Drum Out 6_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 6_3.wav"; path = "../../../../../../../Music/Logic/FYP_Drums_Session1_Shells/BassDrumFiles/Standard Hits/Drum Recording Session 1_BDrum100_128/Out/Bass Drum Out 6_3.wav"; sourceTree = "<group>"; };
+		8B0A884E1C3D77D60001C689 /* Bass Drum Out 6_4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 6_4.wav"; path = "../../../../../../../Music/Logic/FYP_Drums_Session1_Shells/BassDrumFiles/Standard Hits/Drum Recording Session 1_BDrum100_128/Out/Bass Drum Out 6_4.wav"; sourceTree = "<group>"; };
+		8B0A884F1C3D77D60001C689 /* Bass Drum Out 6_5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 6_5.wav"; path = "../../../../../../../Music/Logic/FYP_Drums_Session1_Shells/BassDrumFiles/Standard Hits/Drum Recording Session 1_BDrum100_128/Out/Bass Drum Out 6_5.wav"; sourceTree = "<group>"; };
+		8B0A88501C3D77D60001C689 /* Bass Drum Out 6_6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 6_6.wav"; path = "../../../../../../../Music/Logic/FYP_Drums_Session1_Shells/BassDrumFiles/Standard Hits/Drum Recording Session 1_BDrum100_128/Out/Bass Drum Out 6_6.wav"; sourceTree = "<group>"; };
 		8B6C6B3E1BE7A0B300254CF5 /* Floor Tom 6_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Floor Tom 6_1.wav"; path = "WAVs/Floor Tom 6/Floor Tom 6_1.wav"; sourceTree = "<group>"; };
 		8B6C6B3F1BE7A0B300254CF5 /* Floor Tom 6_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Floor Tom 6_2.wav"; path = "WAVs/Floor Tom 6/Floor Tom 6_2.wav"; sourceTree = "<group>"; };
 		8B6C6B401BE7A0B300254CF5 /* Floor Tom 6_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Floor Tom 6_3.wav"; path = "WAVs/Floor Tom 6/Floor Tom 6_3.wav"; sourceTree = "<group>"; };
 		8B6C6B411BE7A0B300254CF5 /* Floor Tom 6_4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Floor Tom 6_4.wav"; path = "WAVs/Floor Tom 6/Floor Tom 6_4.wav"; sourceTree = "<group>"; };
 		8B6C6B421BE7A0B300254CF5 /* Floor Tom 6_5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Floor Tom 6_5.wav"; path = "WAVs/Floor Tom 6/Floor Tom 6_5.wav"; sourceTree = "<group>"; };
 		8B6C6B431BE7A0B300254CF5 /* Floor Tom 6_6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Floor Tom 6_6.wav"; path = "WAVs/Floor Tom 6/Floor Tom 6_6.wav"; sourceTree = "<group>"; };
-		8B8600921C1049A80083D9FD /* en */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = en; path = "en.lproj/Bass Drum In 1_1.wav"; sourceTree = "<group>"; };
 		8BA4919C1C0F435C00FD0645 /* Snare Down 6_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Snare Down 6_1.wav"; path = "WAVs/Snare Standard Hit 6/Up/Snare Down 6_1.wav"; sourceTree = "<group>"; };
 		8BA4919D1C0F435C00FD0645 /* Snare Down 6_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Snare Down 6_2.wav"; path = "WAVs/Snare Standard Hit 6/Up/Snare Down 6_2.wav"; sourceTree = "<group>"; };
 		8BA4919E1C0F435C00FD0645 /* Snare Down 6_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Snare Down 6_3.wav"; path = "WAVs/Snare Standard Hit 6/Up/Snare Down 6_3.wav"; sourceTree = "<group>"; };
@@ -1284,79 +1233,6 @@
 		8BE9C17F1C35A59C008D25F1 /* Hats Rock Sizzle Room R 6_4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Hats Rock Sizzle Room R 6_4.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 14\" Antique Dark Hats /Half Open/Rock SIzzle/Shaft/5/Room/Right/Hats Rock Sizzle Room R 6_4.wav"; sourceTree = "<group>"; };
 		8BE9C1801C35A59C008D25F1 /* Hats Rock Sizzle Room R 6_5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Hats Rock Sizzle Room R 6_5.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 14\" Antique Dark Hats /Half Open/Rock SIzzle/Shaft/5/Room/Right/Hats Rock Sizzle Room R 6_5.wav"; sourceTree = "<group>"; };
 		8BE9C1811C35A59C008D25F1 /* Hats Rock Sizzle Room R 6_6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Hats Rock Sizzle Room R 6_6.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 14\" Antique Dark Hats /Half Open/Rock SIzzle/Shaft/5/Room/Right/Hats Rock Sizzle Room R 6_6.wav"; sourceTree = "<group>"; };
-		8BF944541C0F0FB1008A98E8 /* Bass Drum In 1_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 1_2.wav"; path = "WAVs/Bass Drum 1/in/Bass Drum In 1_2.wav"; sourceTree = "<group>"; };
-		8BF944551C0F0FB1008A98E8 /* Bass Drum In 1_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 1_3.wav"; path = "WAVs/Bass Drum 1/in/Bass Drum In 1_3.wav"; sourceTree = "<group>"; };
-		8BF944561C0F0FB1008A98E8 /* Bass Drum In 1_4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 1_4.wav"; path = "WAVs/Bass Drum 1/in/Bass Drum In 1_4.wav"; sourceTree = "<group>"; };
-		8BF944571C0F0FB1008A98E8 /* Bass Drum In 1_5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 1_5.wav"; path = "WAVs/Bass Drum 1/in/Bass Drum In 1_5.wav"; sourceTree = "<group>"; };
-		8BF944581C0F0FB1008A98E8 /* Bass Drum In 1_6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 1_6.wav"; path = "WAVs/Bass Drum 1/in/Bass Drum In 1_6.wav"; sourceTree = "<group>"; };
-		8BF944591C0F0FB1008A98E8 /* Bass Drum In 1_7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 1_7.wav"; path = "WAVs/Bass Drum 1/in/Bass Drum In 1_7.wav"; sourceTree = "<group>"; };
-		8BF944611C0F0FB9008A98E8 /* Bass Drum Out 1_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 1_1.wav"; path = "WAVs/Bass Drum 1/Out/Bass Drum Out 1_1.wav"; sourceTree = "<group>"; };
-		8BF944621C0F0FB9008A98E8 /* Bass Drum Out 1_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 1_2.wav"; path = "WAVs/Bass Drum 1/Out/Bass Drum Out 1_2.wav"; sourceTree = "<group>"; };
-		8BF944631C0F0FB9008A98E8 /* Bass Drum Out 1_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 1_3.wav"; path = "WAVs/Bass Drum 1/Out/Bass Drum Out 1_3.wav"; sourceTree = "<group>"; };
-		8BF944641C0F0FB9008A98E8 /* Bass Drum Out 1_4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 1_4.wav"; path = "WAVs/Bass Drum 1/Out/Bass Drum Out 1_4.wav"; sourceTree = "<group>"; };
-		8BF944651C0F0FB9008A98E8 /* Bass Drum Out 1_5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 1_5.wav"; path = "WAVs/Bass Drum 1/Out/Bass Drum Out 1_5.wav"; sourceTree = "<group>"; };
-		8BF944661C0F0FB9008A98E8 /* Bass Drum Out 1_6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 1_6.wav"; path = "WAVs/Bass Drum 1/Out/Bass Drum Out 1_6.wav"; sourceTree = "<group>"; };
-		8BF944671C0F0FB9008A98E8 /* Bass Drum Out 1_7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 1_7.wav"; path = "WAVs/Bass Drum 1/Out/Bass Drum Out 1_7.wav"; sourceTree = "<group>"; };
-		8BF9446F1C0F0FC2008A98E8 /* Bass Drum In 2_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 2_1.wav"; path = "WAVs/Bass Drum 2/In/Bass Drum In 2_1.wav"; sourceTree = "<group>"; };
-		8BF944701C0F0FC2008A98E8 /* Bass Drum In 2_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 2_2.wav"; path = "WAVs/Bass Drum 2/In/Bass Drum In 2_2.wav"; sourceTree = "<group>"; };
-		8BF944711C0F0FC2008A98E8 /* Bass Drum In 2_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 2_3.wav"; path = "WAVs/Bass Drum 2/In/Bass Drum In 2_3.wav"; sourceTree = "<group>"; };
-		8BF944721C0F0FC2008A98E8 /* Bass Drum In 2_4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 2_4.wav"; path = "WAVs/Bass Drum 2/In/Bass Drum In 2_4.wav"; sourceTree = "<group>"; };
-		8BF944731C0F0FC2008A98E8 /* Bass Drum In 2_5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 2_5.wav"; path = "WAVs/Bass Drum 2/In/Bass Drum In 2_5.wav"; sourceTree = "<group>"; };
-		8BF944741C0F0FC2008A98E8 /* Bass Drum In 2_6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 2_6.wav"; path = "WAVs/Bass Drum 2/In/Bass Drum In 2_6.wav"; sourceTree = "<group>"; };
-		8BF9447B1C0F0FCA008A98E8 /* Bass Drum Out 2_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 2_1.wav"; path = "WAVs/Bass Drum 2/Out/Bass Drum Out 2_1.wav"; sourceTree = "<group>"; };
-		8BF9447C1C0F0FCA008A98E8 /* Bass Drum Out 2_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 2_2.wav"; path = "WAVs/Bass Drum 2/Out/Bass Drum Out 2_2.wav"; sourceTree = "<group>"; };
-		8BF9447D1C0F0FCA008A98E8 /* Bass Drum Out 2_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 2_3.wav"; path = "WAVs/Bass Drum 2/Out/Bass Drum Out 2_3.wav"; sourceTree = "<group>"; };
-		8BF9447E1C0F0FCA008A98E8 /* Bass Drum Out 2_4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 2_4.wav"; path = "WAVs/Bass Drum 2/Out/Bass Drum Out 2_4.wav"; sourceTree = "<group>"; };
-		8BF9447F1C0F0FCA008A98E8 /* Bass Drum Out 2_5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 2_5.wav"; path = "WAVs/Bass Drum 2/Out/Bass Drum Out 2_5.wav"; sourceTree = "<group>"; };
-		8BF944801C0F0FCA008A98E8 /* Bass Drum Out 2_6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 2_6.wav"; path = "WAVs/Bass Drum 2/Out/Bass Drum Out 2_6.wav"; sourceTree = "<group>"; };
-		8BF944871C0F0FD2008A98E8 /* Bass Drum In 3_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 3_1.wav"; path = "WAVs/Bass Drum 3/In/Bass Drum In 3_1.wav"; sourceTree = "<group>"; };
-		8BF944881C0F0FD2008A98E8 /* Bass Drum In 3_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 3_2.wav"; path = "WAVs/Bass Drum 3/In/Bass Drum In 3_2.wav"; sourceTree = "<group>"; };
-		8BF944891C0F0FD2008A98E8 /* Bass Drum In 3_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 3_3.wav"; path = "WAVs/Bass Drum 3/In/Bass Drum In 3_3.wav"; sourceTree = "<group>"; };
-		8BF9448A1C0F0FD2008A98E8 /* Bass Drum In 3_4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 3_4.wav"; path = "WAVs/Bass Drum 3/In/Bass Drum In 3_4.wav"; sourceTree = "<group>"; };
-		8BF9448B1C0F0FD2008A98E8 /* Bass Drum In 3_5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 3_5.wav"; path = "WAVs/Bass Drum 3/In/Bass Drum In 3_5.wav"; sourceTree = "<group>"; };
-		8BF9448C1C0F0FD2008A98E8 /* Bass Drum In 3_6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 3_6.wav"; path = "WAVs/Bass Drum 3/In/Bass Drum In 3_6.wav"; sourceTree = "<group>"; };
-		8BF944931C0F0FD9008A98E8 /* Bass Drum Out 3_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 3_1.wav"; path = "WAVs/Bass Drum 3/Out/Bass Drum Out 3_1.wav"; sourceTree = "<group>"; };
-		8BF944941C0F0FD9008A98E8 /* Bass Drum Out 3_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 3_2.wav"; path = "WAVs/Bass Drum 3/Out/Bass Drum Out 3_2.wav"; sourceTree = "<group>"; };
-		8BF944951C0F0FD9008A98E8 /* Bass Drum Out 3_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 3_3.wav"; path = "WAVs/Bass Drum 3/Out/Bass Drum Out 3_3.wav"; sourceTree = "<group>"; };
-		8BF944961C0F0FD9008A98E8 /* Bass Drum Out 3_4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 3_4.wav"; path = "WAVs/Bass Drum 3/Out/Bass Drum Out 3_4.wav"; sourceTree = "<group>"; };
-		8BF944971C0F0FD9008A98E8 /* Bass Drum Out 3_5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 3_5.wav"; path = "WAVs/Bass Drum 3/Out/Bass Drum Out 3_5.wav"; sourceTree = "<group>"; };
-		8BF944981C0F0FD9008A98E8 /* Bass Drum Out 3_6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 3_6.wav"; path = "WAVs/Bass Drum 3/Out/Bass Drum Out 3_6.wav"; sourceTree = "<group>"; };
-		8BF9449F1C0F0FE2008A98E8 /* Bass Drum In 4_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 4_1.wav"; path = "WAVs/Bass Drum 4/In/Bass Drum In 4_1.wav"; sourceTree = "<group>"; };
-		8BF944A01C0F0FE2008A98E8 /* Bass Drum In 4_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 4_2.wav"; path = "WAVs/Bass Drum 4/In/Bass Drum In 4_2.wav"; sourceTree = "<group>"; };
-		8BF944A11C0F0FE2008A98E8 /* Bass Drum In 4_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 4_3.wav"; path = "WAVs/Bass Drum 4/In/Bass Drum In 4_3.wav"; sourceTree = "<group>"; };
-		8BF944A21C0F0FE2008A98E8 /* Bass Drum In 4_4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 4_4.wav"; path = "WAVs/Bass Drum 4/In/Bass Drum In 4_4.wav"; sourceTree = "<group>"; };
-		8BF944A31C0F0FE2008A98E8 /* Bass Drum In 4_5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 4_5.wav"; path = "WAVs/Bass Drum 4/In/Bass Drum In 4_5.wav"; sourceTree = "<group>"; };
-		8BF944A41C0F0FE2008A98E8 /* Bass Drum In 4_6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 4_6.wav"; path = "WAVs/Bass Drum 4/In/Bass Drum In 4_6.wav"; sourceTree = "<group>"; };
-		8BF944AB1C0F0FE8008A98E8 /* Bass Drum Out 4_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 4_1.wav"; path = "WAVs/Bass Drum 4/Out/Bass Drum Out 4_1.wav"; sourceTree = "<group>"; };
-		8BF944AC1C0F0FE8008A98E8 /* Bass Drum Out 4_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 4_2.wav"; path = "WAVs/Bass Drum 4/Out/Bass Drum Out 4_2.wav"; sourceTree = "<group>"; };
-		8BF944AD1C0F0FE8008A98E8 /* Bass Drum Out 4_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 4_3.wav"; path = "WAVs/Bass Drum 4/Out/Bass Drum Out 4_3.wav"; sourceTree = "<group>"; };
-		8BF944AE1C0F0FE8008A98E8 /* Bass Drum Out 4_4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 4_4.wav"; path = "WAVs/Bass Drum 4/Out/Bass Drum Out 4_4.wav"; sourceTree = "<group>"; };
-		8BF944AF1C0F0FE8008A98E8 /* Bass Drum Out 4_5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 4_5.wav"; path = "WAVs/Bass Drum 4/Out/Bass Drum Out 4_5.wav"; sourceTree = "<group>"; };
-		8BF944B01C0F0FE8008A98E8 /* Bass Drum Out 4_6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 4_6.wav"; path = "WAVs/Bass Drum 4/Out/Bass Drum Out 4_6.wav"; sourceTree = "<group>"; };
-		8BF944B71C0F0FF2008A98E8 /* Bass Drum In 5_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 5_1.wav"; path = "WAVs/Bass Drum 5/In/Bass Drum In 5_1.wav"; sourceTree = "<group>"; };
-		8BF944B81C0F0FF2008A98E8 /* Bass Drum In 5_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 5_2.wav"; path = "WAVs/Bass Drum 5/In/Bass Drum In 5_2.wav"; sourceTree = "<group>"; };
-		8BF944B91C0F0FF2008A98E8 /* Bass Drum In 5_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 5_3.wav"; path = "WAVs/Bass Drum 5/In/Bass Drum In 5_3.wav"; sourceTree = "<group>"; };
-		8BF944BA1C0F0FF2008A98E8 /* Bass Drum In 5_4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 5_4.wav"; path = "WAVs/Bass Drum 5/In/Bass Drum In 5_4.wav"; sourceTree = "<group>"; };
-		8BF944BB1C0F0FF2008A98E8 /* Bass Drum In 5_5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 5_5.wav"; path = "WAVs/Bass Drum 5/In/Bass Drum In 5_5.wav"; sourceTree = "<group>"; };
-		8BF944BC1C0F0FF2008A98E8 /* Bass Drum In 5_6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 5_6.wav"; path = "WAVs/Bass Drum 5/In/Bass Drum In 5_6.wav"; sourceTree = "<group>"; };
-		8BF944C31C0F0FF9008A98E8 /* Bass Drum Out 5_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 5_1.wav"; path = "WAVs/Bass Drum 5/Out/Bass Drum Out 5_1.wav"; sourceTree = "<group>"; };
-		8BF944C41C0F0FF9008A98E8 /* Bass Drum Out 5_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 5_2.wav"; path = "WAVs/Bass Drum 5/Out/Bass Drum Out 5_2.wav"; sourceTree = "<group>"; };
-		8BF944C51C0F0FF9008A98E8 /* Bass Drum Out 5_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 5_3.wav"; path = "WAVs/Bass Drum 5/Out/Bass Drum Out 5_3.wav"; sourceTree = "<group>"; };
-		8BF944C61C0F0FF9008A98E8 /* Bass Drum Out 5_4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 5_4.wav"; path = "WAVs/Bass Drum 5/Out/Bass Drum Out 5_4.wav"; sourceTree = "<group>"; };
-		8BF944C71C0F0FF9008A98E8 /* Bass Drum Out 5_5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 5_5.wav"; path = "WAVs/Bass Drum 5/Out/Bass Drum Out 5_5.wav"; sourceTree = "<group>"; };
-		8BF944C81C0F0FF9008A98E8 /* Bass Drum Out 5_6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 5_6.wav"; path = "WAVs/Bass Drum 5/Out/Bass Drum Out 5_6.wav"; sourceTree = "<group>"; };
-		8BF944CF1C0F1001008A98E8 /* Bass Drum In 6_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 6_1.wav"; path = "WAVs/Bass Drum 6/In/Bass Drum In 6_1.wav"; sourceTree = "<group>"; };
-		8BF944D01C0F1001008A98E8 /* Bass Drum In 6_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 6_2.wav"; path = "WAVs/Bass Drum 6/In/Bass Drum In 6_2.wav"; sourceTree = "<group>"; };
-		8BF944D11C0F1001008A98E8 /* Bass Drum In 6_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 6_3.wav"; path = "WAVs/Bass Drum 6/In/Bass Drum In 6_3.wav"; sourceTree = "<group>"; };
-		8BF944D21C0F1001008A98E8 /* Bass Drum In 6_4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 6_4.wav"; path = "WAVs/Bass Drum 6/In/Bass Drum In 6_4.wav"; sourceTree = "<group>"; };
-		8BF944D31C0F1001008A98E8 /* Bass Drum In 6_5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 6_5.wav"; path = "WAVs/Bass Drum 6/In/Bass Drum In 6_5.wav"; sourceTree = "<group>"; };
-		8BF944D41C0F1001008A98E8 /* Bass Drum In 6_6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum In 6_6.wav"; path = "WAVs/Bass Drum 6/In/Bass Drum In 6_6.wav"; sourceTree = "<group>"; };
-		8BF944DB1C0F1009008A98E8 /* Bass Drum Out 6_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 6_1.wav"; path = "WAVs/Bass Drum 6/Out/Bass Drum Out 6_1.wav"; sourceTree = "<group>"; };
-		8BF944DC1C0F1009008A98E8 /* Bass Drum Out 6_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 6_2.wav"; path = "WAVs/Bass Drum 6/Out/Bass Drum Out 6_2.wav"; sourceTree = "<group>"; };
-		8BF944DD1C0F1009008A98E8 /* Bass Drum Out 6_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 6_3.wav"; path = "WAVs/Bass Drum 6/Out/Bass Drum Out 6_3.wav"; sourceTree = "<group>"; };
-		8BF944DE1C0F1009008A98E8 /* Bass Drum Out 6_4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 6_4.wav"; path = "WAVs/Bass Drum 6/Out/Bass Drum Out 6_4.wav"; sourceTree = "<group>"; };
-		8BF944DF1C0F1009008A98E8 /* Bass Drum Out 6_5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 6_5.wav"; path = "WAVs/Bass Drum 6/Out/Bass Drum Out 6_5.wav"; sourceTree = "<group>"; };
-		8BF944E01C0F1009008A98E8 /* Bass Drum Out 6_6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Bass Drum Out 6_6.wav"; path = "WAVs/Bass Drum 6/Out/Bass Drum Out 6_6.wav"; sourceTree = "<group>"; };
 		8BFBC94E1BE78B740062BE31 /* High Tom 6_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "High Tom 6_1.wav"; path = "WAVs/High Tom 6/High Tom 6_1.wav"; sourceTree = "<group>"; };
 		8BFBC94F1BE78B740062BE31 /* High Tom 6_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "High Tom 6_2.wav"; path = "WAVs/High Tom 6/High Tom 6_2.wav"; sourceTree = "<group>"; };
 		8BFBC9501BE78B740062BE31 /* High Tom 6_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "High Tom 6_3.wav"; path = "WAVs/High Tom 6/High Tom 6_3.wav"; sourceTree = "<group>"; };
@@ -2904,80 +2780,18 @@
 		834668091A6B198100753390 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				8B8600931C1049A80083D9FD /* Bass Drum In 1_1.wav */,
-				8BF944541C0F0FB1008A98E8 /* Bass Drum In 1_2.wav */,
-				8BF944551C0F0FB1008A98E8 /* Bass Drum In 1_3.wav */,
-				8BF944561C0F0FB1008A98E8 /* Bass Drum In 1_4.wav */,
-				8BF944571C0F0FB1008A98E8 /* Bass Drum In 1_5.wav */,
-				8BF944581C0F0FB1008A98E8 /* Bass Drum In 1_6.wav */,
-				8BF944591C0F0FB1008A98E8 /* Bass Drum In 1_7.wav */,
-				8BF944611C0F0FB9008A98E8 /* Bass Drum Out 1_1.wav */,
-				8BF944621C0F0FB9008A98E8 /* Bass Drum Out 1_2.wav */,
-				8BF944631C0F0FB9008A98E8 /* Bass Drum Out 1_3.wav */,
-				8BF944641C0F0FB9008A98E8 /* Bass Drum Out 1_4.wav */,
-				8BF944651C0F0FB9008A98E8 /* Bass Drum Out 1_5.wav */,
-				8BF944661C0F0FB9008A98E8 /* Bass Drum Out 1_6.wav */,
-				8BF944671C0F0FB9008A98E8 /* Bass Drum Out 1_7.wav */,
-				8BF9446F1C0F0FC2008A98E8 /* Bass Drum In 2_1.wav */,
-				8BF944701C0F0FC2008A98E8 /* Bass Drum In 2_2.wav */,
-				8BF944711C0F0FC2008A98E8 /* Bass Drum In 2_3.wav */,
-				8BF944721C0F0FC2008A98E8 /* Bass Drum In 2_4.wav */,
-				8BF944731C0F0FC2008A98E8 /* Bass Drum In 2_5.wav */,
-				8BF944741C0F0FC2008A98E8 /* Bass Drum In 2_6.wav */,
-				8BF9447B1C0F0FCA008A98E8 /* Bass Drum Out 2_1.wav */,
-				8BF9447C1C0F0FCA008A98E8 /* Bass Drum Out 2_2.wav */,
-				8BF9447D1C0F0FCA008A98E8 /* Bass Drum Out 2_3.wav */,
-				8BF9447E1C0F0FCA008A98E8 /* Bass Drum Out 2_4.wav */,
-				8BF9447F1C0F0FCA008A98E8 /* Bass Drum Out 2_5.wav */,
-				8BF944801C0F0FCA008A98E8 /* Bass Drum Out 2_6.wav */,
-				8BF944871C0F0FD2008A98E8 /* Bass Drum In 3_1.wav */,
-				8BF944881C0F0FD2008A98E8 /* Bass Drum In 3_2.wav */,
-				8BF944891C0F0FD2008A98E8 /* Bass Drum In 3_3.wav */,
-				8BF9448A1C0F0FD2008A98E8 /* Bass Drum In 3_4.wav */,
-				8BF9448B1C0F0FD2008A98E8 /* Bass Drum In 3_5.wav */,
-				8BF9448C1C0F0FD2008A98E8 /* Bass Drum In 3_6.wav */,
-				8BF944931C0F0FD9008A98E8 /* Bass Drum Out 3_1.wav */,
-				8BF944941C0F0FD9008A98E8 /* Bass Drum Out 3_2.wav */,
-				8BF944951C0F0FD9008A98E8 /* Bass Drum Out 3_3.wav */,
-				8BF944961C0F0FD9008A98E8 /* Bass Drum Out 3_4.wav */,
-				8BF944971C0F0FD9008A98E8 /* Bass Drum Out 3_5.wav */,
-				8BF944981C0F0FD9008A98E8 /* Bass Drum Out 3_6.wav */,
-				8BF9449F1C0F0FE2008A98E8 /* Bass Drum In 4_1.wav */,
-				8BF944A01C0F0FE2008A98E8 /* Bass Drum In 4_2.wav */,
-				8BF944A11C0F0FE2008A98E8 /* Bass Drum In 4_3.wav */,
-				8BF944A21C0F0FE2008A98E8 /* Bass Drum In 4_4.wav */,
-				8BF944A31C0F0FE2008A98E8 /* Bass Drum In 4_5.wav */,
-				8BF944A41C0F0FE2008A98E8 /* Bass Drum In 4_6.wav */,
-				8BF944AB1C0F0FE8008A98E8 /* Bass Drum Out 4_1.wav */,
-				8BF944AC1C0F0FE8008A98E8 /* Bass Drum Out 4_2.wav */,
-				8BF944AD1C0F0FE8008A98E8 /* Bass Drum Out 4_3.wav */,
-				8BF944AE1C0F0FE8008A98E8 /* Bass Drum Out 4_4.wav */,
-				8BF944AF1C0F0FE8008A98E8 /* Bass Drum Out 4_5.wav */,
-				8BF944B01C0F0FE8008A98E8 /* Bass Drum Out 4_6.wav */,
-				8BF944B71C0F0FF2008A98E8 /* Bass Drum In 5_1.wav */,
-				8BF944B81C0F0FF2008A98E8 /* Bass Drum In 5_2.wav */,
-				8BF944B91C0F0FF2008A98E8 /* Bass Drum In 5_3.wav */,
-				8BF944BA1C0F0FF2008A98E8 /* Bass Drum In 5_4.wav */,
-				8BF944BB1C0F0FF2008A98E8 /* Bass Drum In 5_5.wav */,
-				8BF944BC1C0F0FF2008A98E8 /* Bass Drum In 5_6.wav */,
-				8BF944C31C0F0FF9008A98E8 /* Bass Drum Out 5_1.wav */,
-				8BF944C41C0F0FF9008A98E8 /* Bass Drum Out 5_2.wav */,
-				8BF944C51C0F0FF9008A98E8 /* Bass Drum Out 5_3.wav */,
-				8BF944C61C0F0FF9008A98E8 /* Bass Drum Out 5_4.wav */,
-				8BF944C71C0F0FF9008A98E8 /* Bass Drum Out 5_5.wav */,
-				8BF944C81C0F0FF9008A98E8 /* Bass Drum Out 5_6.wav */,
-				8BF944CF1C0F1001008A98E8 /* Bass Drum In 6_1.wav */,
-				8BF944D01C0F1001008A98E8 /* Bass Drum In 6_2.wav */,
-				8BF944D11C0F1001008A98E8 /* Bass Drum In 6_3.wav */,
-				8BF944D21C0F1001008A98E8 /* Bass Drum In 6_4.wav */,
-				8BF944D31C0F1001008A98E8 /* Bass Drum In 6_5.wav */,
-				8BF944D41C0F1001008A98E8 /* Bass Drum In 6_6.wav */,
-				8BF944DB1C0F1009008A98E8 /* Bass Drum Out 6_1.wav */,
-				8BF944DC1C0F1009008A98E8 /* Bass Drum Out 6_2.wav */,
-				8BF944DD1C0F1009008A98E8 /* Bass Drum Out 6_3.wav */,
-				8BF944DE1C0F1009008A98E8 /* Bass Drum Out 6_4.wav */,
-				8BF944DF1C0F1009008A98E8 /* Bass Drum Out 6_5.wav */,
-				8BF944E01C0F1009008A98E8 /* Bass Drum Out 6_6.wav */,
+				8B0A883F1C3D77CF0001C689 /* Bass Drum In 6_1.wav */,
+				8B0A88401C3D77CF0001C689 /* Bass Drum In 6_2.wav */,
+				8B0A88411C3D77CF0001C689 /* Bass Drum In 6_3.wav */,
+				8B0A88421C3D77CF0001C689 /* Bass Drum In 6_4.wav */,
+				8B0A88431C3D77CF0001C689 /* Bass Drum In 6_5.wav */,
+				8B0A88441C3D77CF0001C689 /* Bass Drum In 6_6.wav */,
+				8B0A884B1C3D77D60001C689 /* Bass Drum Out 6_1.wav */,
+				8B0A884C1C3D77D60001C689 /* Bass Drum Out 6_2.wav */,
+				8B0A884D1C3D77D60001C689 /* Bass Drum Out 6_3.wav */,
+				8B0A884E1C3D77D60001C689 /* Bass Drum Out 6_4.wav */,
+				8B0A884F1C3D77D60001C689 /* Bass Drum Out 6_5.wav */,
+				8B0A88501C3D77D60001C689 /* Bass Drum Out 6_6.wav */,
 				8BFBC94E1BE78B740062BE31 /* High Tom 6_1.wav */,
 				8BFBC94F1BE78B740062BE31 /* High Tom 6_2.wav */,
 				8BFBC9501BE78B740062BE31 /* High Tom 6_3.wav */,
@@ -4180,7 +3994,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BF944A91C0F0FE2008A98E8 /* Bass Drum In 4_5.wav in Resources */,
 				8BE9C15E1C35A584008D25F1 /* Hats Rock Sizzle OH L 6_1.wav in Resources */,
 				8BE9C0D61C35A4F9008D25F1 /* Hats Closed Shaft Close Mic 6_5.wav in Resources */,
 				8BE9C0D31C35A4F9008D25F1 /* Hats Closed Shaft Close Mic 6_2.wav in Resources */,
@@ -4189,196 +4002,135 @@
 				8BFBC9591BE78B740062BE31 /* High Tom 6_6.wav in Resources */,
 				8BE9C15F1C35A584008D25F1 /* Hats Rock Sizzle OH L 6_2.wav in Resources */,
 				8BE9C14A1C35A564008D25F1 /* Hats Closed Tip Room R 6_5.wav in Resources */,
-				8BF944A51C0F0FE2008A98E8 /* Bass Drum In 4_1.wav in Resources */,
 				8BFBC9581BE78B740062BE31 /* High Tom 6_5.wav in Resources */,
 				8BE9C11B1C35A539008D25F1 /* Hats Closed Tip Close Mic 6_6.wav in Resources */,
 				8BE9C1321C35A555008D25F1 /* Hats Closed Tip OH R 6_5.wav in Resources */,
-				8BF9445D1C0F0FB1008A98E8 /* Bass Drum In 1_4.wav in Resources */,
 				8BE9C1551C35A57D008D25F1 /* Hats Rock Sizzle Close Mic 6_4.wav in Resources */,
 				8BE9C1861C35A59C008D25F1 /* Hats Rock Sizzle Room R 6_5.wav in Resources */,
 				8BA491A31C0F435C00FD0645 /* Snare Down 6_2.wav in Resources */,
 				8329F39C17CD2499001AA834 /* SKINI.msg in Resources */,
-				8BF944691C0F0FB9008A98E8 /* Bass Drum Out 1_2.wav in Resources */,
-				8BF944601C0F0FB1008A98E8 /* Bass Drum In 1_7.wav in Resources */,
+				8B0A88461C3D77CF0001C689 /* Bass Drum In 6_2.wav in Resources */,
 				8BE9C1031C35A512008D25F1 /* Hats Closed Shaft Room L 6_6.wav in Resources */,
-				8BF9445C1C0F0FB1008A98E8 /* Bass Drum In 1_3.wav in Resources */,
-				8BF944D71C0F1001008A98E8 /* Bass Drum In 6_3.wav in Resources */,
-				8BF944681C0F0FB9008A98E8 /* Bass Drum Out 1_1.wav in Resources */,
-				8BF944AA1C0F0FE2008A98E8 /* Bass Drum In 4_6.wav in Resources */,
 				8BE9C1021C35A512008D25F1 /* Hats Closed Shaft Room L 6_5.wav in Resources */,
 				8BE9C1631C35A584008D25F1 /* Hats Rock Sizzle OH L 6_6.wav in Resources */,
 				8BE9C1621C35A584008D25F1 /* Hats Rock Sizzle OH L 6_5.wav in Resources */,
 				8BE9C16E1C35A589008D25F1 /* Hats Rock Sizzle OH R 6_5.wav in Resources */,
 				8BE9C0D51C35A4F9008D25F1 /* Hats Closed Shaft Close Mic 6_4.wav in Resources */,
 				8BA491B01C0F436400FD0645 /* Snare Up 6_3.wav in Resources */,
-				8BF9446D1C0F0FB9008A98E8 /* Bass Drum Out 1_6.wav in Resources */,
 				8BFBC9631BE790350062BE31 /* Mid Tom 6_4.wav in Resources */,
-				8BF9449D1C0F0FD9008A98E8 /* Bass Drum Out 3_5.wav in Resources */,
 				8BE9C0E21C35A503008D25F1 /* Hats Closed Shaft OH L 6_3.wav in Resources */,
 				8BE9C1541C35A57D008D25F1 /* Hats Rock Sizzle Close Mic 6_3.wav in Resources */,
-				8BF944A61C0F0FE2008A98E8 /* Bass Drum In 4_2.wav in Resources */,
 				8BE9C1761C35A597008D25F1 /* Hats Rock Sizzle Room L 6_1.wav in Resources */,
-				8BF944841C0F0FCA008A98E8 /* Bass Drum Out 2_4.wav in Resources */,
-				8B8600911C1049A80083D9FD /* Bass Drum In 1_1.wav in Resources */,
 				8BE9C1241C35A54E008D25F1 /* Hats Closed Tip OH L 6_3.wav in Resources */,
-				8BF944771C0F0FC2008A98E8 /* Bass Drum In 2_3.wav in Resources */,
 				8BE9C10B1C35A519008D25F1 /* Hats Closed Shaft Room R 6_2.wav in Resources */,
 				8BFBC9651BE790350062BE31 /* Mid Tom 6_6.wav in Resources */,
 				8BE9C0E61C35A503008D25F1 /* Hats Closed Shaft OH L 6_7.wav in Resources */,
 				8BE9C1301C35A555008D25F1 /* Hats Closed Tip OH R 6_3.wav in Resources */,
 				8BA491A51C0F435C00FD0645 /* Snare Down 6_4.wav in Resources */,
-				8BF9449E1C0F0FD9008A98E8 /* Bass Drum Out 3_6.wav in Resources */,
+				8B0A88531C3D77D60001C689 /* Bass Drum Out 6_3.wav in Resources */,
 				8BE9C1521C35A57D008D25F1 /* Hats Rock Sizzle Close Mic 6_1.wav in Resources */,
-				8BF944991C0F0FD9008A98E8 /* Bass Drum Out 3_1.wav in Resources */,
 				8BE9C1611C35A584008D25F1 /* Hats Rock Sizzle OH L 6_4.wav in Resources */,
-				8BF944D81C0F1001008A98E8 /* Bass Drum In 6_4.wav in Resources */,
 				8BE9C1231C35A54E008D25F1 /* Hats Closed Tip OH L 6_2.wav in Resources */,
 				8BFBC9571BE78B740062BE31 /* High Tom 6_4.wav in Resources */,
-				8BF944B41C0F0FE8008A98E8 /* Bass Drum Out 4_4.wav in Resources */,
-				8BF944911C0F0FD2008A98E8 /* Bass Drum In 3_5.wav in Resources */,
-				8BF944BF1C0F0FF2008A98E8 /* Bass Drum In 5_3.wav in Resources */,
 				8BFBC9611BE790350062BE31 /* Mid Tom 6_2.wav in Resources */,
-				8BF9446E1C0F0FB9008A98E8 /* Bass Drum Out 1_7.wav in Resources */,
 				8BE9C0FF1C35A512008D25F1 /* Hats Closed Shaft Room L 6_2.wav in Resources */,
-				8BF9446B1C0F0FB9008A98E8 /* Bass Drum Out 1_4.wav in Resources */,
+				8B0A88451C3D77CF0001C689 /* Bass Drum In 6_1.wav in Resources */,
 				8BE9C0F41C35A509008D25F1 /* Hats Closed Shaft OH R 6_5.wav in Resources */,
 				8B6C6B471BE7A0B300254CF5 /* Floor Tom 6_3.wav in Resources */,
 				8BE9C1821C35A59C008D25F1 /* Hats Rock Sizzle Room R 6_1.wav in Resources */,
-				8BF944C21C0F0FF2008A98E8 /* Bass Drum In 5_6.wav in Resources */,
+				8B0A88481C3D77CF0001C689 /* Bass Drum In 6_4.wav in Resources */,
 				8BE9C13A1C35A55D008D25F1 /* Hats Closed Tip Room L 6_1.wav in Resources */,
-				8BF9445F1C0F0FB1008A98E8 /* Bass Drum In 1_6.wav in Resources */,
 				8BE9C1261C35A54E008D25F1 /* Hats Closed Tip OH L 6_5.wav in Resources */,
-				8BF944E31C0F1009008A98E8 /* Bass Drum Out 6_3.wav in Resources */,
 				8BE9C1481C35A564008D25F1 /* Hats Closed Tip Room R 6_3.wav in Resources */,
 				8BE9C1831C35A59C008D25F1 /* Hats Rock Sizzle Room R 6_2.wav in Resources */,
-				8BF944B21C0F0FE8008A98E8 /* Bass Drum Out 4_2.wav in Resources */,
-				8BF9448F1C0F0FD2008A98E8 /* Bass Drum In 3_3.wav in Resources */,
 				8B6C6B451BE7A0B300254CF5 /* Floor Tom 6_1.wav in Resources */,
-				8BF944D91C0F1001008A98E8 /* Bass Drum In 6_5.wav in Resources */,
 				8BFBC9551BE78B740062BE31 /* High Tom 6_2.wav in Resources */,
 				8BA491B31C0F436400FD0645 /* Snare Up 6_6.wav in Resources */,
 				8BE9C16A1C35A589008D25F1 /* Hats Rock Sizzle OH R 6_1.wav in Resources */,
 				8BE9C0E51C35A503008D25F1 /* Hats Closed Shaft OH L 6_6.wav in Resources */,
 				8BE9C0E71C35A503008D25F1 /* Hats Closed Shaft OH L 6_8.wav in Resources */,
 				8BE9C1791C35A597008D25F1 /* Hats Rock Sizzle Room L 6_4.wav in Resources */,
-				8BF944861C0F0FCA008A98E8 /* Bass Drum Out 2_6.wav in Resources */,
 				8BA491AF1C0F436400FD0645 /* Snare Up 6_2.wav in Resources */,
-				8BF944E41C0F1009008A98E8 /* Bass Drum Out 6_4.wav in Resources */,
 				8BE9C1011C35A512008D25F1 /* Hats Closed Shaft Room L 6_4.wav in Resources */,
-				8BF944751C0F0FC2008A98E8 /* Bass Drum In 2_1.wav in Resources */,
-				8BF944781C0F0FC2008A98E8 /* Bass Drum In 2_4.wav in Resources */,
-				8BF9445B1C0F0FB1008A98E8 /* Bass Drum In 1_2.wav in Resources */,
-				8BF944DA1C0F1001008A98E8 /* Bass Drum In 6_6.wav in Resources */,
-				8BF9447A1C0F0FC2008A98E8 /* Bass Drum In 2_6.wav in Resources */,
-				8BF944921C0F0FD2008A98E8 /* Bass Drum In 3_6.wav in Resources */,
 				8B6C6B461BE7A0B300254CF5 /* Floor Tom 6_2.wav in Resources */,
 				8BE9C11A1C35A539008D25F1 /* Hats Closed Tip Close Mic 6_5.wav in Resources */,
 				8BE9C1191C35A539008D25F1 /* Hats Closed Tip Close Mic 6_4.wav in Resources */,
 				8BA491A21C0F435C00FD0645 /* Snare Down 6_1.wav in Resources */,
-				8BF944CD1C0F0FF9008A98E8 /* Bass Drum Out 5_5.wav in Resources */,
-				8BF944A81C0F0FE2008A98E8 /* Bass Drum In 4_4.wav in Resources */,
 				8BE9C0FE1C35A512008D25F1 /* Hats Closed Shaft Room L 6_1.wav in Resources */,
 				8BE9C0F11C35A509008D25F1 /* Hats Closed Shaft OH R 6_2.wav in Resources */,
 				8BE9C1561C35A57D008D25F1 /* Hats Rock Sizzle Close Mic 6_5.wav in Resources */,
 				8BE9C13C1C35A55D008D25F1 /* Hats Closed Tip Room L 6_3.wav in Resources */,
-				8BF9449B1C0F0FD9008A98E8 /* Bass Drum Out 3_3.wav in Resources */,
+				8B0A88551C3D77D60001C689 /* Bass Drum Out 6_5.wav in Resources */,
 				8BA491A41C0F435C00FD0645 /* Snare Down 6_3.wav in Resources */,
+				8B0A88541C3D77D60001C689 /* Bass Drum Out 6_4.wav in Resources */,
 				8BE9C1471C35A564008D25F1 /* Hats Closed Tip Room R 6_2.wav in Resources */,
-				8BF944821C0F0FCA008A98E8 /* Bass Drum Out 2_2.wav in Resources */,
 				8BE9C16C1C35A589008D25F1 /* Hats Rock Sizzle OH R 6_3.wav in Resources */,
-				8BF944C01C0F0FF2008A98E8 /* Bass Drum In 5_4.wav in Resources */,
 				8BE9C1001C35A512008D25F1 /* Hats Closed Shaft Room L 6_3.wav in Resources */,
 				8BFBC9541BE78B740062BE31 /* High Tom 6_1.wav in Resources */,
 				8BE9C0D71C35A4F9008D25F1 /* Hats Closed Shaft Close Mic 6_6.wav in Resources */,
 				8BE9C12E1C35A555008D25F1 /* Hats Closed Tip OH R 6_1.wav in Resources */,
-				8BF944C91C0F0FF9008A98E8 /* Bass Drum Out 5_1.wav in Resources */,
 				8BE9C14B1C35A564008D25F1 /* Hats Closed Tip Room R 6_6.wav in Resources */,
+				8B0A88471C3D77CF0001C689 /* Bass Drum In 6_3.wav in Resources */,
 				8BE9C16D1C35A589008D25F1 /* Hats Rock Sizzle OH R 6_4.wav in Resources */,
+				8B0A884A1C3D77CF0001C689 /* Bass Drum In 6_6.wav in Resources */,
 				8329F39D17CD2499001AA834 /* SKINI.tbl in Resources */,
 				8BE9C1331C35A555008D25F1 /* Hats Closed Tip OH R 6_6.wav in Resources */,
 				8BE9C12F1C35A555008D25F1 /* Hats Closed Tip OH R 6_2.wav in Resources */,
 				8BE9C1771C35A597008D25F1 /* Hats Rock Sizzle Room L 6_2.wav in Resources */,
 				8BE9C0F01C35A509008D25F1 /* Hats Closed Shaft OH R 6_1.wav in Resources */,
 				8BE9C17A1C35A597008D25F1 /* Hats Rock Sizzle Room L 6_5.wav in Resources */,
-				8BF9448E1C0F0FD2008A98E8 /* Bass Drum In 3_2.wav in Resources */,
 				8BE9C1221C35A54E008D25F1 /* Hats Closed Tip OH L 6_1.wav in Resources */,
 				8BE9C13B1C35A55D008D25F1 /* Hats Closed Tip Room L 6_2.wav in Resources */,
 				8BE9C13D1C35A55D008D25F1 /* Hats Closed Tip Room L 6_4.wav in Resources */,
-				8BF944BD1C0F0FF2008A98E8 /* Bass Drum In 5_1.wav in Resources */,
 				8BE9C1871C35A59C008D25F1 /* Hats Rock Sizzle Room R 6_6.wav in Resources */,
 				8BE9C1461C35A564008D25F1 /* Hats Closed Tip Room R 6_1.wav in Resources */,
-				8BF944B61C0F0FE8008A98E8 /* Bass Drum Out 4_6.wav in Resources */,
-				8BF944901C0F0FD2008A98E8 /* Bass Drum In 3_4.wav in Resources */,
+				8B0A88511C3D77D60001C689 /* Bass Drum Out 6_1.wav in Resources */,
 				8BE9C0F61C35A509008D25F1 /* Hats Closed Shaft OH R 6_7.wav in Resources */,
 				8BE9C1601C35A584008D25F1 /* Hats Rock Sizzle OH L 6_3.wav in Resources */,
 				8BE9C10F1C35A519008D25F1 /* Hats Closed Shaft Room R 6_6.wav in Resources */,
 				8BE9C0F71C35A509008D25F1 /* Hats Closed Shaft OH R 6_8.wav in Resources */,
 				8BA491B11C0F436400FD0645 /* Snare Up 6_4.wav in Resources */,
-				8BF944CB1C0F0FF9008A98E8 /* Bass Drum Out 5_3.wav in Resources */,
-				8BF944CE1C0F0FF9008A98E8 /* Bass Drum Out 5_6.wav in Resources */,
-				8BF9445E1C0F0FB1008A98E8 /* Bass Drum In 1_5.wav in Resources */,
 				8BE9C1181C35A539008D25F1 /* Hats Closed Tip Close Mic 6_3.wav in Resources */,
 				8BA491AE1C0F436400FD0645 /* Snare Up 6_1.wav in Resources */,
 				8BFBC9621BE790350062BE31 /* Mid Tom 6_3.wav in Resources */,
 				8BE9C1781C35A597008D25F1 /* Hats Rock Sizzle Room L 6_3.wav in Resources */,
 				8BE9C0F31C35A509008D25F1 /* Hats Closed Shaft OH R 6_4.wav in Resources */,
 				8BE9C0E11C35A503008D25F1 /* Hats Closed Shaft OH L 6_2.wav in Resources */,
-				8BF944E51C0F1009008A98E8 /* Bass Drum Out 6_5.wav in Resources */,
 				8BE9C0D21C35A4F9008D25F1 /* Hats Closed Shaft Close Mic 6_1.wav in Resources */,
-				8BF944D61C0F1001008A98E8 /* Bass Drum In 6_2.wav in Resources */,
 				8BE9C1531C35A57D008D25F1 /* Hats Rock Sizzle Close Mic 6_2.wav in Resources */,
-				8BF944D51C0F1001008A98E8 /* Bass Drum In 6_1.wav in Resources */,
-				8BF944791C0F0FC2008A98E8 /* Bass Drum In 2_5.wav in Resources */,
-				8BF944851C0F0FCA008A98E8 /* Bass Drum Out 2_5.wav in Resources */,
 				8BE9C1171C35A539008D25F1 /* Hats Closed Tip Close Mic 6_2.wav in Resources */,
 				8BA491A71C0F435C00FD0645 /* Snare Down 6_6.wav in Resources */,
 				8BE9C10D1C35A519008D25F1 /* Hats Closed Shaft Room R 6_4.wav in Resources */,
-				8BF9449A1C0F0FD9008A98E8 /* Bass Drum Out 3_2.wav in Resources */,
 				8BE9C13F1C35A55D008D25F1 /* Hats Closed Tip Room L 6_6.wav in Resources */,
-				8BF9448D1C0F0FD2008A98E8 /* Bass Drum In 3_1.wav in Resources */,
 				8BE9C0E41C35A503008D25F1 /* Hats Closed Shaft OH L 6_5.wav in Resources */,
-				8BF944B31C0F0FE8008A98E8 /* Bass Drum Out 4_3.wav in Resources */,
 				8BE9C0F51C35A509008D25F1 /* Hats Closed Shaft OH R 6_6.wav in Resources */,
 				8BE9C1851C35A59C008D25F1 /* Hats Rock Sizzle Room R 6_4.wav in Resources */,
-				8BF944E61C0F1009008A98E8 /* Bass Drum Out 6_6.wav in Resources */,
+				8B0A88491C3D77CF0001C689 /* Bass Drum In 6_5.wav in Resources */,
 				8BA491A61C0F435C00FD0645 /* Snare Down 6_5.wav in Resources */,
-				8BF944C11C0F0FF2008A98E8 /* Bass Drum In 5_5.wav in Resources */,
 				8B6C6B4A1BE7A0B300254CF5 /* Floor Tom 6_6.wav in Resources */,
 				8BE9C1251C35A54E008D25F1 /* Hats Closed Tip OH L 6_4.wav in Resources */,
 				8BE9C1271C35A54E008D25F1 /* Hats Closed Tip OH L 6_6.wav in Resources */,
 				8BE9C17B1C35A597008D25F1 /* Hats Rock Sizzle Room L 6_6.wav in Resources */,
-				8BF944A71C0F0FE2008A98E8 /* Bass Drum In 4_3.wav in Resources */,
 				8BE9C0D41C35A4F9008D25F1 /* Hats Closed Shaft Close Mic 6_3.wav in Resources */,
 				8BE9C10A1C35A519008D25F1 /* Hats Closed Shaft Room R 6_1.wav in Resources */,
-				8BF9446A1C0F0FB9008A98E8 /* Bass Drum Out 1_3.wav in Resources */,
-				8BF944811C0F0FCA008A98E8 /* Bass Drum Out 2_1.wav in Resources */,
-				8BF9449C1C0F0FD9008A98E8 /* Bass Drum Out 3_4.wav in Resources */,
 				8BE9C1841C35A59C008D25F1 /* Hats Rock Sizzle Room R 6_3.wav in Resources */,
 				8BE9C1571C35A57D008D25F1 /* Hats Rock Sizzle Close Mic 6_6.wav in Resources */,
-				8BF944BE1C0F0FF2008A98E8 /* Bass Drum In 5_2.wav in Resources */,
-				8BF944E21C0F1009008A98E8 /* Bass Drum Out 6_2.wav in Resources */,
 				8BE9C1311C35A555008D25F1 /* Hats Closed Tip OH R 6_4.wav in Resources */,
-				8BF944CA1C0F0FF9008A98E8 /* Bass Drum Out 5_2.wav in Resources */,
 				8BE9C0E31C35A503008D25F1 /* Hats Closed Shaft OH L 6_4.wav in Resources */,
 				8BFBC9641BE790350062BE31 /* Mid Tom 6_5.wav in Resources */,
 				8B6C6B491BE7A0B300254CF5 /* Floor Tom 6_5.wav in Resources */,
-				8BF9446C1C0F0FB9008A98E8 /* Bass Drum Out 1_5.wav in Resources */,
-				8BF944761C0F0FC2008A98E8 /* Bass Drum In 2_2.wav in Resources */,
-				8BF944CC1C0F0FF9008A98E8 /* Bass Drum Out 5_4.wav in Resources */,
 				8BE9C0F21C35A509008D25F1 /* Hats Closed Shaft OH R 6_3.wav in Resources */,
-				8BF944E11C0F1009008A98E8 /* Bass Drum Out 6_1.wav in Resources */,
-				8BF944831C0F0FCA008A98E8 /* Bass Drum Out 2_3.wav in Resources */,
 				8BE9C10E1C35A519008D25F1 /* Hats Closed Shaft Room R 6_5.wav in Resources */,
 				8BA491B21C0F436400FD0645 /* Snare Up 6_5.wav in Resources */,
 				8BFBC9601BE790350062BE31 /* Mid Tom 6_1.wav in Resources */,
+				8B0A88561C3D77D60001C689 /* Bass Drum Out 6_6.wav in Resources */,
 				8BE9C1491C35A564008D25F1 /* Hats Closed Tip Room R 6_4.wav in Resources */,
 				8BE9C16B1C35A589008D25F1 /* Hats Rock Sizzle OH R 6_2.wav in Resources */,
 				8BE9C16F1C35A589008D25F1 /* Hats Rock Sizzle OH R 6_6.wav in Resources */,
 				8BE9C13E1C35A55D008D25F1 /* Hats Closed Tip Room L 6_5.wav in Resources */,
-				8BF944B51C0F0FE8008A98E8 /* Bass Drum Out 4_5.wav in Resources */,
 				8BE9C1161C35A539008D25F1 /* Hats Closed Tip Close Mic 6_1.wav in Resources */,
+				8B0A88521C3D77D60001C689 /* Bass Drum Out 6_2.wav in Resources */,
 				8BE9C0E01C35A503008D25F1 /* Hats Closed Shaft OH L 6_1.wav in Resources */,
-				8BF944B11C0F0FE8008A98E8 /* Bass Drum Out 4_1.wav in Resources */,
 				8BFBC9561BE78B740062BE31 /* High Tom 6_3.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -4527,18 +4279,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		8B8600931C1049A80083D9FD /* Bass Drum In 1_1.wav */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8B8600921C1049A80083D9FD /* en */,
-			);
-			name = "Bass Drum In 1_1.wav";
-			path = "WAVs/Bass Drum 1/in";
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6758D5C5D24024DB6F83E78F /* Debug */ = {

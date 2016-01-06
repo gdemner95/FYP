@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DC4B969B-DCCB-4497-B5CE-EA53D369CF45</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TestSynthAU</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1592F010E6B68A71F7AAD1ED2CDE7A52C1BAFF13</key>
+		<string>https://github.com/gdemner95/FYP.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TestSynthAUOrigin/TestSynthAU.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1592F010E6B68A71F7AAD1ED2CDE7A52C1BAFF13</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/gdemner95/FYP.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1592F010E6B68A71F7AAD1ED2CDE7A52C1BAFF13</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1592F010E6B68A71F7AAD1ED2CDE7A52C1BAFF13</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FYP</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -80,7 +80,7 @@ void MySynth::initialise()
             }
         }
     }
-    for(int b = 0; b < 2; b++){
+    for(int b = 0; b < 3; b++){
         for(int a = 0; a < 5; a++){
             for (int x = 5; x < 6; x++){
                 for (int i = 0; i < 6; i++){
@@ -114,8 +114,8 @@ void MySynth::postProcess(float** outputBuffer, int numChannels, int numSamples)
     float* pMainOutput0 = outputBuffer[0];
     float* pMainOutput1 = outputBuffer[1];
     
-    float fLeftBuffer[10];
-    float fRightBuffer[10];
+    float fLeftBuffer[12];
+    float fRightBuffer[12];
     
     float* pfSubmix[19] = {
         pSubmix[0],
@@ -145,7 +145,7 @@ void MySynth::postProcess(float** outputBuffer, int numChannels, int numSamples)
     
     for(int i = 0; i < 7; i++){
         fPanner[i] = getParameter(kParam16+i);
-        
+        fLevel[i] = getParameter(kParam0+i);
     }
     for(int i = 0; i < 7; i++){
         dbFs[i] = fabsf(*pfSubmix[i]);
@@ -162,17 +162,18 @@ void MySynth::postProcess(float** outputBuffer, int numChannels, int numSamples)
         }
         // Add your global effect processing here
         //apply panning
-        for(int i = 0; i < 6; i++){
-            fLeftBuffer[i] = (fDry[i] * (1.0 - fPanner[i]));
-            fRightBuffer[i] = (fDry[i] * fPanner[i]);
+        for(int i = 0; i < 7; i++){
+            fLeftBuffer[i] = ((fDry[i] * fLevel[i]) * (1.0 - fPanner[i]));
+            fRightBuffer[i] = ((fDry[i] * fLevel[i]) * fPanner[i]);
+
         };
         fLeftBuffer[7] = fDry[7];
         fRightBuffer[7] = fDry[7];
         //                fLeftBuffer *= fLevel1;
         //                fRightBuffer *= fLevel1;
         
-        *pMainOutput0++ += fLeftBuffer[0] + fLeftBuffer[1] + fLeftBuffer[2] + fLeftBuffer[3] + fLeftBuffer[4] + fLeftBuffer[5] + fLeftBuffer[6] + fLeftBuffer[7] + fLeftBuffer[8] + fLeftBuffer[9] ;
-        *pMainOutput1++ += fRightBuffer[0] + fRightBuffer[1] + fRightBuffer[2] + fRightBuffer[3] + fLeftBuffer[4] + fLeftBuffer[5] + fLeftBuffer[6] + fLeftBuffer[7] + fLeftBuffer[8] + fLeftBuffer[9];
+        *pMainOutput0++ += fLeftBuffer[0] + fLeftBuffer[1] + fLeftBuffer[2] + fLeftBuffer[3] + fLeftBuffer[4] + fLeftBuffer[5] + fLeftBuffer[6] + fLeftBuffer[7] + fLeftBuffer[8] + fLeftBuffer[9] + fLeftBuffer[10] + fLeftBuffer[11] ;
+        *pMainOutput1++ += fRightBuffer[0] + fRightBuffer[1] + fRightBuffer[2] + fRightBuffer[3] + fLeftBuffer[4] + fLeftBuffer[5] + fLeftBuffer[6] + fLeftBuffer[7] + fLeftBuffer[8] + fLeftBuffer[9] + fRightBuffer[10] + fRightBuffer[11];
         
         for(int i = 0; i < 10; i++){
             *pfSubmix[i]++ = 0;
@@ -196,11 +197,12 @@ void MyVoice::onStartNote (const int pitch, const float velocity)
     printf("Note start\n");
     
     this->pitch = pitch;
-    
+    //bass drum
     if (pitch == 48){
         signalGenerator[0] = *getSynthesiser()->getBuffer(0,velocity);
         signalGenerator[1] = *getSynthesiser()->getBuffer(1,velocity);
     }
+    //snare
     else if (pitch == 50){
         signalGenerator[0] = *getSynthesiser()->getBuffer(2,velocity);
         signalGenerator[1] = *getSynthesiser()->getBuffer(3,velocity);
@@ -213,19 +215,30 @@ void MyVoice::onStartNote (const int pitch, const float velocity)
         signalGenerator[2] = *getSynthesiser()->getCymbalBuffer(0, velocity, 2);//oh r
         signalGenerator[3] = *getSynthesiser()->getCymbalBuffer(0, velocity, 3);//room l
         signalGenerator[4] = *getSynthesiser()->getCymbalBuffer(0, velocity, 4);//room r
-        
+
+    }
+    //hats Rock sizzle
+    else if (pitch == 56){
+        signalGenerator[0] = *getSynthesiser()->getCymbalBuffer(2, velocity, 0);//close
+        signalGenerator[1] = *getSynthesiser()->getCymbalBuffer(2, velocity, 1);//oh l
+        signalGenerator[2] = *getSynthesiser()->getCymbalBuffer(2, velocity, 2);//oh r
+        signalGenerator[3] = *getSynthesiser()->getCymbalBuffer(2, velocity, 3);//room l
+        signalGenerator[4] = *getSynthesiser()->getCymbalBuffer(2, velocity, 4);//room r
         
     }
-    
-    else if (pitch == 53){
+    //high tom
+    else if (pitch == 57){
         signalGenerator[0] = *getSynthesiser()->getBuffer(4,velocity);
     }
+    //mid tom
     else if (pitch == 55){
         signalGenerator[0] = *getSynthesiser()->getBuffer(5,velocity);
     }
-    else if (pitch == 57){
+    //floor tom
+    else if (pitch == 53){
         signalGenerator[0] = *getSynthesiser()->getBuffer(6,velocity);
     }
+    
     else
     {
         signalGenerator[0].reset();
@@ -269,9 +282,13 @@ bool MyVoice::process (float** outputBuffer, int numChannels, int numSamples)
             *pfSubmix[9] += signalGenerator[2].tick();
             *pfSubmix[10] += signalGenerator[3].tick();
             *pfSubmix[11] += signalGenerator[4].tick();
-
-            
-            
+        }
+        else if (pitch == 56){
+            *pfSubmix[7] += signalGenerator[0].tick();
+            *pfSubmix[8] += signalGenerator[1].tick();
+            *pfSubmix[9] += signalGenerator[2].tick();
+            *pfSubmix[10] += signalGenerator[3].tick();
+            *pfSubmix[11] += signalGenerator[4].tick();
         }
         else if (pitch == 53){
             *pfSubmix[4] += signalGenerator[0].tick();
