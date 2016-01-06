@@ -91,7 +91,7 @@ struct Drum
 };
 struct CymbalMics
 {
-    Drum mics[5];
+    Drum mics[8];
 };
 class MySynth : public Synth
 {
@@ -118,7 +118,7 @@ public:
 private:
     // Insert synthesizer variables here
     Drum buffer[8];
-    CymbalMics cymbals[5];
+    CymbalMics cymbals[8];
     float fMix;
     
 };

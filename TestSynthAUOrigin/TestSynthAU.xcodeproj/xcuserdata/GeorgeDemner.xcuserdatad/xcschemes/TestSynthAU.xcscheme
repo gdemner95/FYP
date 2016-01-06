@@ -44,8 +44,7 @@
       allowLocationSimulation = "YES">
       <PathRunnable
          runnableDebuggingMode = "0"
-         BundleIdentifier = "com.apple.audio.aulab"
-         FilePath = "/Users/GeorgeDemner/Documents/UWE/Year 3/Final Year Project/TestSynthAUOrigin/AU Lab/AU Lab.app">
+         FilePath = "/Applications/Logic Pro.app">
       </PathRunnable>
       <MacroExpansion>
          <BuildableReference
@@ -59,7 +58,7 @@
       <CommandLineArguments>
          <CommandLineArgument
             argument = "TestSynthAU.trak"
-            isEnabled = "YES">
+            isEnabled = "NO">
          </CommandLineArgument>
       </CommandLineArguments>
       <AdditionalOptions>

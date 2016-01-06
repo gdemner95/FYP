@@ -217,6 +217,66 @@
 		8B0A89081C3D7EF50001C689 /* Crash Crash Room R 6_4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B0A89021C3D7EF50001C689 /* Crash Crash Room R 6_4.wav */; };
 		8B0A89091C3D7EF50001C689 /* Crash Crash Room R 6_5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B0A89031C3D7EF50001C689 /* Crash Crash Room R 6_5.wav */; };
 		8B0A890A1C3D7EF50001C689 /* Crash Crash Room R 6_6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B0A89041C3D7EF50001C689 /* Crash Crash Room R 6_6.wav */; };
+		8B13D86F1C3D92F0005A30D9 /* Ride Tip Close Mic 6_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8691C3D92F0005A30D9 /* Ride Tip Close Mic 6_1.wav */; };
+		8B13D8701C3D92F0005A30D9 /* Ride Tip Close Mic 6_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D86A1C3D92F0005A30D9 /* Ride Tip Close Mic 6_2.wav */; };
+		8B13D8711C3D92F0005A30D9 /* Ride Tip Close Mic 6_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D86B1C3D92F0005A30D9 /* Ride Tip Close Mic 6_3.wav */; };
+		8B13D8721C3D92F0005A30D9 /* Ride Tip Close Mic 6_4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D86C1C3D92F0005A30D9 /* Ride Tip Close Mic 6_4.wav */; };
+		8B13D8731C3D92F0005A30D9 /* Ride Tip Close Mic 6_5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D86D1C3D92F0005A30D9 /* Ride Tip Close Mic 6_5.wav */; };
+		8B13D8741C3D92F0005A30D9 /* Ride Tip Close Mic 6_6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D86E1C3D92F0005A30D9 /* Ride Tip Close Mic 6_6.wav */; };
+		8B13D87B1C3D92F6005A30D9 /* Ride Tip OH L 6_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8751C3D92F6005A30D9 /* Ride Tip OH L 6_1.wav */; };
+		8B13D87C1C3D92F6005A30D9 /* Ride Tip OH L 6_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8761C3D92F6005A30D9 /* Ride Tip OH L 6_2.wav */; };
+		8B13D87D1C3D92F6005A30D9 /* Ride Tip OH L 6_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8771C3D92F6005A30D9 /* Ride Tip OH L 6_3.wav */; };
+		8B13D87E1C3D92F6005A30D9 /* Ride Tip OH L 6_4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8781C3D92F6005A30D9 /* Ride Tip OH L 6_4.wav */; };
+		8B13D87F1C3D92F6005A30D9 /* Ride Tip OH L 6_5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8791C3D92F6005A30D9 /* Ride Tip OH L 6_5.wav */; };
+		8B13D8801C3D92F6005A30D9 /* Ride Tip OH L 6_6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D87A1C3D92F6005A30D9 /* Ride Tip OH L 6_6.wav */; };
+		8B13D8871C3D92FA005A30D9 /* Ride Tip OH R 6_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8811C3D92FA005A30D9 /* Ride Tip OH R 6_1.wav */; };
+		8B13D8881C3D92FA005A30D9 /* Ride Tip OH R 6_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8821C3D92FA005A30D9 /* Ride Tip OH R 6_2.wav */; };
+		8B13D8891C3D92FA005A30D9 /* Ride Tip OH R 6_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8831C3D92FA005A30D9 /* Ride Tip OH R 6_3.wav */; };
+		8B13D88A1C3D92FA005A30D9 /* Ride Tip OH R 6_4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8841C3D92FA005A30D9 /* Ride Tip OH R 6_4.wav */; };
+		8B13D88B1C3D92FA005A30D9 /* Ride Tip OH R 6_5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8851C3D92FA005A30D9 /* Ride Tip OH R 6_5.wav */; };
+		8B13D88C1C3D92FA005A30D9 /* Ride Tip OH R 6_6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8861C3D92FA005A30D9 /* Ride Tip OH R 6_6.wav */; };
+		8B13D8931C3D9301005A30D9 /* Ride Tip Room L 6_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D88D1C3D9301005A30D9 /* Ride Tip Room L 6_1.wav */; };
+		8B13D8941C3D9301005A30D9 /* Ride Tip Room L 6_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D88E1C3D9301005A30D9 /* Ride Tip Room L 6_2.wav */; };
+		8B13D8951C3D9301005A30D9 /* Ride Tip Room L 6_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D88F1C3D9301005A30D9 /* Ride Tip Room L 6_3.wav */; };
+		8B13D8961C3D9301005A30D9 /* Ride Tip Room L 6_4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8901C3D9301005A30D9 /* Ride Tip Room L 6_4.wav */; };
+		8B13D8971C3D9301005A30D9 /* Ride Tip Room L 6_5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8911C3D9301005A30D9 /* Ride Tip Room L 6_5.wav */; };
+		8B13D8981C3D9301005A30D9 /* Ride Tip Room L 6_6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8921C3D9301005A30D9 /* Ride Tip Room L 6_6.wav */; };
+		8B13D89F1C3D9306005A30D9 /* Ride Tip Room R 6_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8991C3D9306005A30D9 /* Ride Tip Room R 6_1.wav */; };
+		8B13D8A01C3D9306005A30D9 /* Ride Tip Room R 6_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D89A1C3D9306005A30D9 /* Ride Tip Room R 6_2.wav */; };
+		8B13D8A11C3D9306005A30D9 /* Ride Tip Room R 6_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D89B1C3D9306005A30D9 /* Ride Tip Room R 6_3.wav */; };
+		8B13D8A21C3D9306005A30D9 /* Ride Tip Room R 6_4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D89C1C3D9306005A30D9 /* Ride Tip Room R 6_4.wav */; };
+		8B13D8A31C3D9306005A30D9 /* Ride Tip Room R 6_5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D89D1C3D9306005A30D9 /* Ride Tip Room R 6_5.wav */; };
+		8B13D8A41C3D9306005A30D9 /* Ride Tip Room R 6_6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D89E1C3D9306005A30D9 /* Ride Tip Room R 6_6.wav */; };
+		8B13D8AB1C3D936E005A30D9 /* Ride Bell Room R 6_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8A51C3D936E005A30D9 /* Ride Bell Room R 6_1.wav */; };
+		8B13D8AC1C3D936E005A30D9 /* Ride Bell Room R 6_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8A61C3D936E005A30D9 /* Ride Bell Room R 6_2.wav */; };
+		8B13D8AD1C3D936E005A30D9 /* Ride Bell Room R 6_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8A71C3D936E005A30D9 /* Ride Bell Room R 6_3.wav */; };
+		8B13D8AE1C3D936E005A30D9 /* Ride Bell Room R 6_4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8A81C3D936E005A30D9 /* Ride Bell Room R 6_4.wav */; };
+		8B13D8AF1C3D936E005A30D9 /* Ride Bell Room R 6_5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8A91C3D936E005A30D9 /* Ride Bell Room R 6_5.wav */; };
+		8B13D8B01C3D936E005A30D9 /* Ride Bell Room R 6_6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8AA1C3D936E005A30D9 /* Ride Bell Room R 6_6.wav */; };
+		8B13D8B71C3D9372005A30D9 /* Ride Bell Room L 6_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8B11C3D9372005A30D9 /* Ride Bell Room L 6_1.wav */; };
+		8B13D8B81C3D9372005A30D9 /* Ride Bell Room L 6_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8B21C3D9372005A30D9 /* Ride Bell Room L 6_2.wav */; };
+		8B13D8B91C3D9372005A30D9 /* Ride Bell Room L 6_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8B31C3D9372005A30D9 /* Ride Bell Room L 6_3.wav */; };
+		8B13D8BA1C3D9372005A30D9 /* Ride Bell Room L 6_4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8B41C3D9372005A30D9 /* Ride Bell Room L 6_4.wav */; };
+		8B13D8BB1C3D9372005A30D9 /* Ride Bell Room L 6_5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8B51C3D9372005A30D9 /* Ride Bell Room L 6_5.wav */; };
+		8B13D8BC1C3D9372005A30D9 /* Ride Bell Room L 6_6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8B61C3D9372005A30D9 /* Ride Bell Room L 6_6.wav */; };
+		8B13D8C31C3D9379005A30D9 /* Ride Bell OH R 6_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8BD1C3D9379005A30D9 /* Ride Bell OH R 6_1.wav */; };
+		8B13D8C41C3D9379005A30D9 /* Ride Bell OH R 6_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8BE1C3D9379005A30D9 /* Ride Bell OH R 6_2.wav */; };
+		8B13D8C51C3D9379005A30D9 /* Ride Bell OH R 6_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8BF1C3D9379005A30D9 /* Ride Bell OH R 6_3.wav */; };
+		8B13D8C61C3D9379005A30D9 /* Ride Bell OH R 6_4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8C01C3D9379005A30D9 /* Ride Bell OH R 6_4.wav */; };
+		8B13D8C71C3D9379005A30D9 /* Ride Bell OH R 6_5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8C11C3D9379005A30D9 /* Ride Bell OH R 6_5.wav */; };
+		8B13D8C81C3D9379005A30D9 /* Ride Bell OH R 6_6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8C21C3D9379005A30D9 /* Ride Bell OH R 6_6.wav */; };
+		8B13D8CF1C3D937E005A30D9 /* Ride Bell OH L 6_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8C91C3D937D005A30D9 /* Ride Bell OH L 6_1.wav */; };
+		8B13D8D01C3D937E005A30D9 /* Ride Bell OH L 6_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8CA1C3D937E005A30D9 /* Ride Bell OH L 6_2.wav */; };
+		8B13D8D11C3D937E005A30D9 /* Ride Bell OH L 6_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8CB1C3D937E005A30D9 /* Ride Bell OH L 6_3.wav */; };
+		8B13D8D21C3D937E005A30D9 /* Ride Bell OH L 6_4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8CC1C3D937E005A30D9 /* Ride Bell OH L 6_4.wav */; };
+		8B13D8D31C3D937E005A30D9 /* Ride Bell OH L 6_5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8CD1C3D937E005A30D9 /* Ride Bell OH L 6_5.wav */; };
+		8B13D8D41C3D937E005A30D9 /* Ride Bell OH L 6_6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8CE1C3D937E005A30D9 /* Ride Bell OH L 6_6.wav */; };
+		8B13D8DB1C3D9383005A30D9 /* Ride Bell Close Mic 6_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8D51C3D9383005A30D9 /* Ride Bell Close Mic 6_1.wav */; };
+		8B13D8DC1C3D9383005A30D9 /* Ride Bell Close Mic 6_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8D61C3D9383005A30D9 /* Ride Bell Close Mic 6_2.wav */; };
+		8B13D8DD1C3D9383005A30D9 /* Ride Bell Close Mic 6_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8D71C3D9383005A30D9 /* Ride Bell Close Mic 6_3.wav */; };
+		8B13D8DE1C3D9383005A30D9 /* Ride Bell Close Mic 6_4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8D81C3D9383005A30D9 /* Ride Bell Close Mic 6_4.wav */; };
+		8B13D8DF1C3D9383005A30D9 /* Ride Bell Close Mic 6_5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8D91C3D9383005A30D9 /* Ride Bell Close Mic 6_5.wav */; };
+		8B13D8E01C3D9383005A30D9 /* Ride Bell Close Mic 6_6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B13D8DA1C3D9383005A30D9 /* Ride Bell Close Mic 6_6.wav */; };
 		8B6C6B451BE7A0B300254CF5 /* Floor Tom 6_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B6C6B3E1BE7A0B300254CF5 /* Floor Tom 6_1.wav */; };
 		8B6C6B461BE7A0B300254CF5 /* Floor Tom 6_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B6C6B3F1BE7A0B300254CF5 /* Floor Tom 6_2.wav */; };
 		8B6C6B471BE7A0B300254CF5 /* Floor Tom 6_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B6C6B401BE7A0B300254CF5 /* Floor Tom 6_3.wav */; };
@@ -1296,6 +1356,66 @@
 		8B0A89021C3D7EF50001C689 /* Crash Crash Room R 6_4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Crash Crash Room R 6_4.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 17\" Antique Medium Thin Crash/Crash/Shaft/5/Room/Right/Crash Crash Room R 6_4.wav"; sourceTree = "<group>"; };
 		8B0A89031C3D7EF50001C689 /* Crash Crash Room R 6_5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Crash Crash Room R 6_5.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 17\" Antique Medium Thin Crash/Crash/Shaft/5/Room/Right/Crash Crash Room R 6_5.wav"; sourceTree = "<group>"; };
 		8B0A89041C3D7EF50001C689 /* Crash Crash Room R 6_6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Crash Crash Room R 6_6.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 17\" Antique Medium Thin Crash/Crash/Shaft/5/Room/Right/Crash Crash Room R 6_6.wav"; sourceTree = "<group>"; };
+		8B13D8691C3D92F0005A30D9 /* Ride Tip Close Mic 6_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Tip Close Mic 6_1.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Tip/5/Close Mic/Ride Tip Close Mic 6_1.wav"; sourceTree = "<group>"; };
+		8B13D86A1C3D92F0005A30D9 /* Ride Tip Close Mic 6_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Tip Close Mic 6_2.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Tip/5/Close Mic/Ride Tip Close Mic 6_2.wav"; sourceTree = "<group>"; };
+		8B13D86B1C3D92F0005A30D9 /* Ride Tip Close Mic 6_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Tip Close Mic 6_3.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Tip/5/Close Mic/Ride Tip Close Mic 6_3.wav"; sourceTree = "<group>"; };
+		8B13D86C1C3D92F0005A30D9 /* Ride Tip Close Mic 6_4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Tip Close Mic 6_4.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Tip/5/Close Mic/Ride Tip Close Mic 6_4.wav"; sourceTree = "<group>"; };
+		8B13D86D1C3D92F0005A30D9 /* Ride Tip Close Mic 6_5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Tip Close Mic 6_5.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Tip/5/Close Mic/Ride Tip Close Mic 6_5.wav"; sourceTree = "<group>"; };
+		8B13D86E1C3D92F0005A30D9 /* Ride Tip Close Mic 6_6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Tip Close Mic 6_6.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Tip/5/Close Mic/Ride Tip Close Mic 6_6.wav"; sourceTree = "<group>"; };
+		8B13D8751C3D92F6005A30D9 /* Ride Tip OH L 6_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Tip OH L 6_1.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Tip/5/Overhead/Left/Ride Tip OH L 6_1.wav"; sourceTree = "<group>"; };
+		8B13D8761C3D92F6005A30D9 /* Ride Tip OH L 6_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Tip OH L 6_2.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Tip/5/Overhead/Left/Ride Tip OH L 6_2.wav"; sourceTree = "<group>"; };
+		8B13D8771C3D92F6005A30D9 /* Ride Tip OH L 6_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Tip OH L 6_3.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Tip/5/Overhead/Left/Ride Tip OH L 6_3.wav"; sourceTree = "<group>"; };
+		8B13D8781C3D92F6005A30D9 /* Ride Tip OH L 6_4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Tip OH L 6_4.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Tip/5/Overhead/Left/Ride Tip OH L 6_4.wav"; sourceTree = "<group>"; };
+		8B13D8791C3D92F6005A30D9 /* Ride Tip OH L 6_5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Tip OH L 6_5.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Tip/5/Overhead/Left/Ride Tip OH L 6_5.wav"; sourceTree = "<group>"; };
+		8B13D87A1C3D92F6005A30D9 /* Ride Tip OH L 6_6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Tip OH L 6_6.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Tip/5/Overhead/Left/Ride Tip OH L 6_6.wav"; sourceTree = "<group>"; };
+		8B13D8811C3D92FA005A30D9 /* Ride Tip OH R 6_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Tip OH R 6_1.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Tip/5/Overhead/Right/Ride Tip OH R 6_1.wav"; sourceTree = "<group>"; };
+		8B13D8821C3D92FA005A30D9 /* Ride Tip OH R 6_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Tip OH R 6_2.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Tip/5/Overhead/Right/Ride Tip OH R 6_2.wav"; sourceTree = "<group>"; };
+		8B13D8831C3D92FA005A30D9 /* Ride Tip OH R 6_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Tip OH R 6_3.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Tip/5/Overhead/Right/Ride Tip OH R 6_3.wav"; sourceTree = "<group>"; };
+		8B13D8841C3D92FA005A30D9 /* Ride Tip OH R 6_4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Tip OH R 6_4.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Tip/5/Overhead/Right/Ride Tip OH R 6_4.wav"; sourceTree = "<group>"; };
+		8B13D8851C3D92FA005A30D9 /* Ride Tip OH R 6_5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Tip OH R 6_5.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Tip/5/Overhead/Right/Ride Tip OH R 6_5.wav"; sourceTree = "<group>"; };
+		8B13D8861C3D92FA005A30D9 /* Ride Tip OH R 6_6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Tip OH R 6_6.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Tip/5/Overhead/Right/Ride Tip OH R 6_6.wav"; sourceTree = "<group>"; };
+		8B13D88D1C3D9301005A30D9 /* Ride Tip Room L 6_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Tip Room L 6_1.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Tip/5/Room/Left/Ride Tip Room L 6_1.wav"; sourceTree = "<group>"; };
+		8B13D88E1C3D9301005A30D9 /* Ride Tip Room L 6_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Tip Room L 6_2.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Tip/5/Room/Left/Ride Tip Room L 6_2.wav"; sourceTree = "<group>"; };
+		8B13D88F1C3D9301005A30D9 /* Ride Tip Room L 6_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Tip Room L 6_3.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Tip/5/Room/Left/Ride Tip Room L 6_3.wav"; sourceTree = "<group>"; };
+		8B13D8901C3D9301005A30D9 /* Ride Tip Room L 6_4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Tip Room L 6_4.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Tip/5/Room/Left/Ride Tip Room L 6_4.wav"; sourceTree = "<group>"; };
+		8B13D8911C3D9301005A30D9 /* Ride Tip Room L 6_5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Tip Room L 6_5.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Tip/5/Room/Left/Ride Tip Room L 6_5.wav"; sourceTree = "<group>"; };
+		8B13D8921C3D9301005A30D9 /* Ride Tip Room L 6_6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Tip Room L 6_6.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Tip/5/Room/Left/Ride Tip Room L 6_6.wav"; sourceTree = "<group>"; };
+		8B13D8991C3D9306005A30D9 /* Ride Tip Room R 6_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Tip Room R 6_1.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Tip/5/Room/Right/Ride Tip Room R 6_1.wav"; sourceTree = "<group>"; };
+		8B13D89A1C3D9306005A30D9 /* Ride Tip Room R 6_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Tip Room R 6_2.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Tip/5/Room/Right/Ride Tip Room R 6_2.wav"; sourceTree = "<group>"; };
+		8B13D89B1C3D9306005A30D9 /* Ride Tip Room R 6_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Tip Room R 6_3.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Tip/5/Room/Right/Ride Tip Room R 6_3.wav"; sourceTree = "<group>"; };
+		8B13D89C1C3D9306005A30D9 /* Ride Tip Room R 6_4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Tip Room R 6_4.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Tip/5/Room/Right/Ride Tip Room R 6_4.wav"; sourceTree = "<group>"; };
+		8B13D89D1C3D9306005A30D9 /* Ride Tip Room R 6_5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Tip Room R 6_5.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Tip/5/Room/Right/Ride Tip Room R 6_5.wav"; sourceTree = "<group>"; };
+		8B13D89E1C3D9306005A30D9 /* Ride Tip Room R 6_6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Tip Room R 6_6.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Tip/5/Room/Right/Ride Tip Room R 6_6.wav"; sourceTree = "<group>"; };
+		8B13D8A51C3D936E005A30D9 /* Ride Bell Room R 6_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Bell Room R 6_1.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Bell/Shaft/5/Room/Right/Ride Bell Room R 6_1.wav"; sourceTree = "<group>"; };
+		8B13D8A61C3D936E005A30D9 /* Ride Bell Room R 6_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Bell Room R 6_2.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Bell/Shaft/5/Room/Right/Ride Bell Room R 6_2.wav"; sourceTree = "<group>"; };
+		8B13D8A71C3D936E005A30D9 /* Ride Bell Room R 6_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Bell Room R 6_3.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Bell/Shaft/5/Room/Right/Ride Bell Room R 6_3.wav"; sourceTree = "<group>"; };
+		8B13D8A81C3D936E005A30D9 /* Ride Bell Room R 6_4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Bell Room R 6_4.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Bell/Shaft/5/Room/Right/Ride Bell Room R 6_4.wav"; sourceTree = "<group>"; };
+		8B13D8A91C3D936E005A30D9 /* Ride Bell Room R 6_5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Bell Room R 6_5.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Bell/Shaft/5/Room/Right/Ride Bell Room R 6_5.wav"; sourceTree = "<group>"; };
+		8B13D8AA1C3D936E005A30D9 /* Ride Bell Room R 6_6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Bell Room R 6_6.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Bell/Shaft/5/Room/Right/Ride Bell Room R 6_6.wav"; sourceTree = "<group>"; };
+		8B13D8B11C3D9372005A30D9 /* Ride Bell Room L 6_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Bell Room L 6_1.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Bell/Shaft/5/Room/Left/Ride Bell Room L 6_1.wav"; sourceTree = "<group>"; };
+		8B13D8B21C3D9372005A30D9 /* Ride Bell Room L 6_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Bell Room L 6_2.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Bell/Shaft/5/Room/Left/Ride Bell Room L 6_2.wav"; sourceTree = "<group>"; };
+		8B13D8B31C3D9372005A30D9 /* Ride Bell Room L 6_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Bell Room L 6_3.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Bell/Shaft/5/Room/Left/Ride Bell Room L 6_3.wav"; sourceTree = "<group>"; };
+		8B13D8B41C3D9372005A30D9 /* Ride Bell Room L 6_4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Bell Room L 6_4.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Bell/Shaft/5/Room/Left/Ride Bell Room L 6_4.wav"; sourceTree = "<group>"; };
+		8B13D8B51C3D9372005A30D9 /* Ride Bell Room L 6_5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Bell Room L 6_5.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Bell/Shaft/5/Room/Left/Ride Bell Room L 6_5.wav"; sourceTree = "<group>"; };
+		8B13D8B61C3D9372005A30D9 /* Ride Bell Room L 6_6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Bell Room L 6_6.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Bell/Shaft/5/Room/Left/Ride Bell Room L 6_6.wav"; sourceTree = "<group>"; };
+		8B13D8BD1C3D9379005A30D9 /* Ride Bell OH R 6_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Bell OH R 6_1.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Bell/Shaft/5/Overhead/Right/Ride Bell OH R 6_1.wav"; sourceTree = "<group>"; };
+		8B13D8BE1C3D9379005A30D9 /* Ride Bell OH R 6_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Bell OH R 6_2.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Bell/Shaft/5/Overhead/Right/Ride Bell OH R 6_2.wav"; sourceTree = "<group>"; };
+		8B13D8BF1C3D9379005A30D9 /* Ride Bell OH R 6_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Bell OH R 6_3.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Bell/Shaft/5/Overhead/Right/Ride Bell OH R 6_3.wav"; sourceTree = "<group>"; };
+		8B13D8C01C3D9379005A30D9 /* Ride Bell OH R 6_4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Bell OH R 6_4.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Bell/Shaft/5/Overhead/Right/Ride Bell OH R 6_4.wav"; sourceTree = "<group>"; };
+		8B13D8C11C3D9379005A30D9 /* Ride Bell OH R 6_5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Bell OH R 6_5.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Bell/Shaft/5/Overhead/Right/Ride Bell OH R 6_5.wav"; sourceTree = "<group>"; };
+		8B13D8C21C3D9379005A30D9 /* Ride Bell OH R 6_6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Bell OH R 6_6.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Bell/Shaft/5/Overhead/Right/Ride Bell OH R 6_6.wav"; sourceTree = "<group>"; };
+		8B13D8C91C3D937D005A30D9 /* Ride Bell OH L 6_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Bell OH L 6_1.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Bell/Shaft/5/Overhead/Left/Ride Bell OH L 6_1.wav"; sourceTree = "<group>"; };
+		8B13D8CA1C3D937E005A30D9 /* Ride Bell OH L 6_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Bell OH L 6_2.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Bell/Shaft/5/Overhead/Left/Ride Bell OH L 6_2.wav"; sourceTree = "<group>"; };
+		8B13D8CB1C3D937E005A30D9 /* Ride Bell OH L 6_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Bell OH L 6_3.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Bell/Shaft/5/Overhead/Left/Ride Bell OH L 6_3.wav"; sourceTree = "<group>"; };
+		8B13D8CC1C3D937E005A30D9 /* Ride Bell OH L 6_4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Bell OH L 6_4.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Bell/Shaft/5/Overhead/Left/Ride Bell OH L 6_4.wav"; sourceTree = "<group>"; };
+		8B13D8CD1C3D937E005A30D9 /* Ride Bell OH L 6_5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Bell OH L 6_5.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Bell/Shaft/5/Overhead/Left/Ride Bell OH L 6_5.wav"; sourceTree = "<group>"; };
+		8B13D8CE1C3D937E005A30D9 /* Ride Bell OH L 6_6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Bell OH L 6_6.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Bell/Shaft/5/Overhead/Left/Ride Bell OH L 6_6.wav"; sourceTree = "<group>"; };
+		8B13D8D51C3D9383005A30D9 /* Ride Bell Close Mic 6_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Bell Close Mic 6_1.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Bell/Shaft/5/Close Mic/Ride Bell Close Mic 6_1.wav"; sourceTree = "<group>"; };
+		8B13D8D61C3D9383005A30D9 /* Ride Bell Close Mic 6_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Bell Close Mic 6_2.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Bell/Shaft/5/Close Mic/Ride Bell Close Mic 6_2.wav"; sourceTree = "<group>"; };
+		8B13D8D71C3D9383005A30D9 /* Ride Bell Close Mic 6_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Bell Close Mic 6_3.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Bell/Shaft/5/Close Mic/Ride Bell Close Mic 6_3.wav"; sourceTree = "<group>"; };
+		8B13D8D81C3D9383005A30D9 /* Ride Bell Close Mic 6_4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Bell Close Mic 6_4.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Bell/Shaft/5/Close Mic/Ride Bell Close Mic 6_4.wav"; sourceTree = "<group>"; };
+		8B13D8D91C3D9383005A30D9 /* Ride Bell Close Mic 6_5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Bell Close Mic 6_5.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Bell/Shaft/5/Close Mic/Ride Bell Close Mic 6_5.wav"; sourceTree = "<group>"; };
+		8B13D8DA1C3D9383005A30D9 /* Ride Bell Close Mic 6_6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ride Bell Close Mic 6_6.wav"; path = "../../../../../../../Music/Logic/Cymbal Recording/Bosphorous 20\" Antique Medium Thin Ride/Bell/Shaft/5/Close Mic/Ride Bell Close Mic 6_6.wav"; sourceTree = "<group>"; };
 		8B6C6B3E1BE7A0B300254CF5 /* Floor Tom 6_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Floor Tom 6_1.wav"; path = "WAVs/Floor Tom 6/Floor Tom 6_1.wav"; sourceTree = "<group>"; };
 		8B6C6B3F1BE7A0B300254CF5 /* Floor Tom 6_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Floor Tom 6_2.wav"; path = "WAVs/Floor Tom 6/Floor Tom 6_2.wav"; sourceTree = "<group>"; };
 		8B6C6B401BE7A0B300254CF5 /* Floor Tom 6_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Floor Tom 6_3.wav"; path = "WAVs/Floor Tom 6/Floor Tom 6_3.wav"; sourceTree = "<group>"; };
@@ -2960,6 +3080,66 @@
 		834668091A6B198100753390 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				8B13D8D51C3D9383005A30D9 /* Ride Bell Close Mic 6_1.wav */,
+				8B13D8D61C3D9383005A30D9 /* Ride Bell Close Mic 6_2.wav */,
+				8B13D8D71C3D9383005A30D9 /* Ride Bell Close Mic 6_3.wav */,
+				8B13D8D81C3D9383005A30D9 /* Ride Bell Close Mic 6_4.wav */,
+				8B13D8D91C3D9383005A30D9 /* Ride Bell Close Mic 6_5.wav */,
+				8B13D8DA1C3D9383005A30D9 /* Ride Bell Close Mic 6_6.wav */,
+				8B13D8C91C3D937D005A30D9 /* Ride Bell OH L 6_1.wav */,
+				8B13D8CA1C3D937E005A30D9 /* Ride Bell OH L 6_2.wav */,
+				8B13D8CB1C3D937E005A30D9 /* Ride Bell OH L 6_3.wav */,
+				8B13D8CC1C3D937E005A30D9 /* Ride Bell OH L 6_4.wav */,
+				8B13D8CD1C3D937E005A30D9 /* Ride Bell OH L 6_5.wav */,
+				8B13D8CE1C3D937E005A30D9 /* Ride Bell OH L 6_6.wav */,
+				8B13D8BD1C3D9379005A30D9 /* Ride Bell OH R 6_1.wav */,
+				8B13D8BE1C3D9379005A30D9 /* Ride Bell OH R 6_2.wav */,
+				8B13D8BF1C3D9379005A30D9 /* Ride Bell OH R 6_3.wav */,
+				8B13D8C01C3D9379005A30D9 /* Ride Bell OH R 6_4.wav */,
+				8B13D8C11C3D9379005A30D9 /* Ride Bell OH R 6_5.wav */,
+				8B13D8C21C3D9379005A30D9 /* Ride Bell OH R 6_6.wav */,
+				8B13D8B11C3D9372005A30D9 /* Ride Bell Room L 6_1.wav */,
+				8B13D8B21C3D9372005A30D9 /* Ride Bell Room L 6_2.wav */,
+				8B13D8B31C3D9372005A30D9 /* Ride Bell Room L 6_3.wav */,
+				8B13D8B41C3D9372005A30D9 /* Ride Bell Room L 6_4.wav */,
+				8B13D8B51C3D9372005A30D9 /* Ride Bell Room L 6_5.wav */,
+				8B13D8B61C3D9372005A30D9 /* Ride Bell Room L 6_6.wav */,
+				8B13D8A51C3D936E005A30D9 /* Ride Bell Room R 6_1.wav */,
+				8B13D8A61C3D936E005A30D9 /* Ride Bell Room R 6_2.wav */,
+				8B13D8A71C3D936E005A30D9 /* Ride Bell Room R 6_3.wav */,
+				8B13D8A81C3D936E005A30D9 /* Ride Bell Room R 6_4.wav */,
+				8B13D8A91C3D936E005A30D9 /* Ride Bell Room R 6_5.wav */,
+				8B13D8AA1C3D936E005A30D9 /* Ride Bell Room R 6_6.wav */,
+				8B13D8991C3D9306005A30D9 /* Ride Tip Room R 6_1.wav */,
+				8B13D89A1C3D9306005A30D9 /* Ride Tip Room R 6_2.wav */,
+				8B13D89B1C3D9306005A30D9 /* Ride Tip Room R 6_3.wav */,
+				8B13D89C1C3D9306005A30D9 /* Ride Tip Room R 6_4.wav */,
+				8B13D89D1C3D9306005A30D9 /* Ride Tip Room R 6_5.wav */,
+				8B13D89E1C3D9306005A30D9 /* Ride Tip Room R 6_6.wav */,
+				8B13D88D1C3D9301005A30D9 /* Ride Tip Room L 6_1.wav */,
+				8B13D88E1C3D9301005A30D9 /* Ride Tip Room L 6_2.wav */,
+				8B13D88F1C3D9301005A30D9 /* Ride Tip Room L 6_3.wav */,
+				8B13D8901C3D9301005A30D9 /* Ride Tip Room L 6_4.wav */,
+				8B13D8911C3D9301005A30D9 /* Ride Tip Room L 6_5.wav */,
+				8B13D8921C3D9301005A30D9 /* Ride Tip Room L 6_6.wav */,
+				8B13D8811C3D92FA005A30D9 /* Ride Tip OH R 6_1.wav */,
+				8B13D8821C3D92FA005A30D9 /* Ride Tip OH R 6_2.wav */,
+				8B13D8831C3D92FA005A30D9 /* Ride Tip OH R 6_3.wav */,
+				8B13D8841C3D92FA005A30D9 /* Ride Tip OH R 6_4.wav */,
+				8B13D8851C3D92FA005A30D9 /* Ride Tip OH R 6_5.wav */,
+				8B13D8861C3D92FA005A30D9 /* Ride Tip OH R 6_6.wav */,
+				8B13D8751C3D92F6005A30D9 /* Ride Tip OH L 6_1.wav */,
+				8B13D8761C3D92F6005A30D9 /* Ride Tip OH L 6_2.wav */,
+				8B13D8771C3D92F6005A30D9 /* Ride Tip OH L 6_3.wav */,
+				8B13D8781C3D92F6005A30D9 /* Ride Tip OH L 6_4.wav */,
+				8B13D8791C3D92F6005A30D9 /* Ride Tip OH L 6_5.wav */,
+				8B13D87A1C3D92F6005A30D9 /* Ride Tip OH L 6_6.wav */,
+				8B13D8691C3D92F0005A30D9 /* Ride Tip Close Mic 6_1.wav */,
+				8B13D86A1C3D92F0005A30D9 /* Ride Tip Close Mic 6_2.wav */,
+				8B13D86B1C3D92F0005A30D9 /* Ride Tip Close Mic 6_3.wav */,
+				8B13D86C1C3D92F0005A30D9 /* Ride Tip Close Mic 6_4.wav */,
+				8B13D86D1C3D92F0005A30D9 /* Ride Tip Close Mic 6_5.wav */,
+				8B13D86E1C3D92F0005A30D9 /* Ride Tip Close Mic 6_6.wav */,
 				8B0A88FF1C3D7EF50001C689 /* Crash Crash Room R 6_1.wav */,
 				8B0A89001C3D7EF50001C689 /* Crash Crash Room R 6_2.wav */,
 				8B0A89011C3D7EF50001C689 /* Crash Crash Room R 6_3.wav */,
@@ -4268,6 +4448,7 @@
 				8B0A88BF1C3D7CF50001C689 /* Splash Crash Room L 6_3.wav in Resources */,
 				8BE9C0D61C35A4F9008D25F1 /* Hats Closed Shaft Close Mic 6_5.wav in Resources */,
 				8B0A88781C3D7CAD0001C689 /* Hats Open OH L 6_4.wav in Resources */,
+				8B13D8711C3D92F0005A30D9 /* Ride Tip Close Mic 6_3.wav in Resources */,
 				8B0A88E61C3D7EDF0001C689 /* Crash Crash OH L 6_6.wav in Resources */,
 				8BE9C0D31C35A4F9008D25F1 /* Hats Closed Shaft Close Mic 6_2.wav in Resources */,
 				8BE9C10C1C35A519008D25F1 /* Hats Closed Shaft Room R 6_3.wav in Resources */,
@@ -4280,17 +4461,26 @@
 				8BFBC9581BE78B740062BE31 /* High Tom 6_5.wav in Resources */,
 				8B0A88D51C3D7ED80001C689 /* Crash Crash Close Mic 6_1.wav in Resources */,
 				8BE9C11B1C35A539008D25F1 /* Hats Closed Tip Close Mic 6_6.wav in Resources */,
+				8B13D8D21C3D937E005A30D9 /* Ride Bell OH L 6_4.wav in Resources */,
+				8B13D8C81C3D9379005A30D9 /* Ride Bell OH R 6_6.wav in Resources */,
 				8B0A888F1C3D7CBC0001C689 /* Hats Open Close Mic 6_3.wav in Resources */,
 				8BE9C1321C35A555008D25F1 /* Hats Closed Tip OH R 6_5.wav in Resources */,
+				8B13D8BC1C3D9372005A30D9 /* Ride Bell Room L 6_6.wav in Resources */,
 				8BE9C1551C35A57D008D25F1 /* Hats Rock Sizzle Close Mic 6_4.wav in Resources */,
 				8B0A88E41C3D7EDF0001C689 /* Crash Crash OH L 6_4.wav in Resources */,
 				8BE9C1861C35A59C008D25F1 /* Hats Rock Sizzle Room R 6_5.wav in Resources */,
 				8BA491A31C0F435C00FD0645 /* Snare Down 6_2.wav in Resources */,
+				8B13D8C71C3D9379005A30D9 /* Ride Bell OH R 6_5.wav in Resources */,
 				8B0A88E21C3D7EDF0001C689 /* Crash Crash OH L 6_2.wav in Resources */,
+				8B13D8DB1C3D9383005A30D9 /* Ride Bell Close Mic 6_1.wav in Resources */,
 				8B0A88811C3D7CB40001C689 /* Hats Open OH R 6_1.wav in Resources */,
+				8B13D8BA1C3D9372005A30D9 /* Ride Bell Room L 6_4.wav in Resources */,
+				8B13D8C61C3D9379005A30D9 /* Ride Bell OH R 6_4.wav in Resources */,
 				8329F39C17CD2499001AA834 /* SKINI.msg in Resources */,
+				8B13D88B1C3D92FA005A30D9 /* Ride Tip OH R 6_5.wav in Resources */,
 				8B0A88B41C3D7CED0001C689 /* Splash Crash OH R 6_4.wav in Resources */,
 				8B0A88461C3D77CF0001C689 /* Bass Drum In 6_2.wav in Resources */,
+				8B13D8DD1C3D9383005A30D9 /* Ride Bell Close Mic 6_3.wav in Resources */,
 				8BE9C1031C35A512008D25F1 /* Hats Closed Shaft Room L 6_6.wav in Resources */,
 				8BE9C1021C35A512008D25F1 /* Hats Closed Shaft Room L 6_5.wav in Resources */,
 				8BE9C1631C35A584008D25F1 /* Hats Rock Sizzle OH L 6_6.wav in Resources */,
@@ -4298,11 +4488,14 @@
 				8B0A88B11C3D7CED0001C689 /* Splash Crash OH R 6_1.wav in Resources */,
 				8BE9C16E1C35A589008D25F1 /* Hats Rock Sizzle OH R 6_5.wav in Resources */,
 				8BE9C0D51C35A4F9008D25F1 /* Hats Closed Shaft Close Mic 6_4.wav in Resources */,
+				8B13D8A01C3D9306005A30D9 /* Ride Tip Room R 6_2.wav in Resources */,
 				8BA491B01C0F436400FD0645 /* Snare Up 6_3.wav in Resources */,
 				8BFBC9631BE790350062BE31 /* Mid Tom 6_4.wav in Resources */,
+				8B13D8D41C3D937E005A30D9 /* Ride Bell OH L 6_6.wav in Resources */,
 				8B0A887A1C3D7CAD0001C689 /* Hats Open OH L 6_6.wav in Resources */,
 				8B0A89071C3D7EF50001C689 /* Crash Crash Room R 6_3.wav in Resources */,
 				8BE9C0E21C35A503008D25F1 /* Hats Closed Shaft OH L 6_3.wav in Resources */,
+				8B13D87E1C3D92F6005A30D9 /* Ride Tip OH L 6_4.wav in Resources */,
 				8BE9C1541C35A57D008D25F1 /* Hats Rock Sizzle Close Mic 6_3.wav in Resources */,
 				8B0A88D71C3D7ED80001C689 /* Crash Crash Close Mic 6_3.wav in Resources */,
 				8BE9C1761C35A597008D25F1 /* Hats Rock Sizzle Room L 6_1.wav in Resources */,
@@ -4341,6 +4534,9 @@
 				8B0A88761C3D7CAD0001C689 /* Hats Open OH L 6_2.wav in Resources */,
 				8B0A88A71C3D7CE60001C689 /* Splash Crash OH L 6_3.wav in Resources */,
 				8BE9C1821C35A59C008D25F1 /* Hats Rock Sizzle Room R 6_1.wav in Resources */,
+				8B13D8961C3D9301005A30D9 /* Ride Tip Room L 6_4.wav in Resources */,
+				8B13D8BB1C3D9372005A30D9 /* Ride Bell Room L 6_5.wav in Resources */,
+				8B13D8C41C3D9379005A30D9 /* Ride Bell OH R 6_2.wav in Resources */,
 				8B0A889D1C3D7CDD0001C689 /* Splash Crash Close Mic 6_5.wav in Resources */,
 				8B0A88481C3D77CF0001C689 /* Bass Drum In 6_4.wav in Resources */,
 				8B0A889B1C3D7CDD0001C689 /* Splash Crash Close Mic 6_3.wav in Resources */,
@@ -4348,6 +4544,9 @@
 				8BE9C13A1C35A55D008D25F1 /* Hats Closed Tip Room L 6_1.wav in Resources */,
 				8BE9C1261C35A54E008D25F1 /* Hats Closed Tip OH L 6_5.wav in Resources */,
 				8B0A88621C3D7C9E0001C689 /* Hats Open Room R 6_6.wav in Resources */,
+				8B13D8B01C3D936E005A30D9 /* Ride Bell Room R 6_6.wav in Resources */,
+				8B13D8741C3D92F0005A30D9 /* Ride Tip Close Mic 6_6.wav in Resources */,
+				8B13D8C51C3D9379005A30D9 /* Ride Bell OH R 6_3.wav in Resources */,
 				8BE9C1481C35A564008D25F1 /* Hats Closed Tip Room R 6_3.wav in Resources */,
 				8B0A885F1C3D7C9E0001C689 /* Hats Open Room R 6_3.wav in Resources */,
 				8BE9C1831C35A59C008D25F1 /* Hats Rock Sizzle Room R 6_2.wav in Resources */,
@@ -4355,34 +4554,48 @@
 				8BFBC9551BE78B740062BE31 /* High Tom 6_2.wav in Resources */,
 				8BA491B31C0F436400FD0645 /* Snare Up 6_6.wav in Resources */,
 				8BE9C16A1C35A589008D25F1 /* Hats Rock Sizzle OH R 6_1.wav in Resources */,
+				8B13D8D31C3D937E005A30D9 /* Ride Bell OH L 6_5.wav in Resources */,
 				8BE9C0E51C35A503008D25F1 /* Hats Closed Shaft OH L 6_6.wav in Resources */,
 				8BE9C0E71C35A503008D25F1 /* Hats Closed Shaft OH L 6_8.wav in Resources */,
 				8B0A88EF1C3D7EE50001C689 /* Crash Crash OH R 6_3.wav in Resources */,
+				8B13D8931C3D9301005A30D9 /* Ride Tip Room L 6_1.wav in Resources */,
 				8B0A890A1C3D7EF50001C689 /* Crash Crash Room R 6_6.wav in Resources */,
+				8B13D8941C3D9301005A30D9 /* Ride Tip Room L 6_2.wav in Resources */,
 				8BE9C1791C35A597008D25F1 /* Hats Rock Sizzle Room L 6_4.wav in Resources */,
 				8B0A886C1C3D7CA40001C689 /* Hats Open Room L 6_4.wav in Resources */,
+				8B13D8981C3D9301005A30D9 /* Ride Tip Room L 6_6.wav in Resources */,
 				8B0A88A91C3D7CE60001C689 /* Splash Crash OH L 6_5.wav in Resources */,
+				8B13D87B1C3D92F6005A30D9 /* Ride Tip OH L 6_1.wav in Resources */,
+				8B13D8971C3D9301005A30D9 /* Ride Tip Room L 6_5.wav in Resources */,
 				8BA491AF1C0F436400FD0645 /* Snare Up 6_2.wav in Resources */,
+				8B13D8B81C3D9372005A30D9 /* Ride Bell Room L 6_2.wav in Resources */,
+				8B13D8871C3D92FA005A30D9 /* Ride Tip OH R 6_1.wav in Resources */,
 				8BE9C1011C35A512008D25F1 /* Hats Closed Shaft Room L 6_4.wav in Resources */,
 				8B6C6B461BE7A0B300254CF5 /* Floor Tom 6_2.wav in Resources */,
+				8B13D8D11C3D937E005A30D9 /* Ride Bell OH L 6_3.wav in Resources */,
 				8B0A88901C3D7CBC0001C689 /* Hats Open Close Mic 6_4.wav in Resources */,
 				8B0A88F21C3D7EE50001C689 /* Crash Crash OH R 6_6.wav in Resources */,
 				8BE9C11A1C35A539008D25F1 /* Hats Closed Tip Close Mic 6_5.wav in Resources */,
 				8BE9C1191C35A539008D25F1 /* Hats Closed Tip Close Mic 6_4.wav in Resources */,
 				8BA491A21C0F435C00FD0645 /* Snare Down 6_1.wav in Resources */,
+				8B13D8A41C3D9306005A30D9 /* Ride Tip Room R 6_6.wav in Resources */,
 				8BE9C0FE1C35A512008D25F1 /* Hats Closed Shaft Room L 6_1.wav in Resources */,
 				8BE9C0F11C35A509008D25F1 /* Hats Closed Shaft OH R 6_2.wav in Resources */,
 				8BE9C1561C35A57D008D25F1 /* Hats Rock Sizzle Close Mic 6_5.wav in Resources */,
 				8B0A88EE1C3D7EE50001C689 /* Crash Crash OH R 6_2.wav in Resources */,
 				8BE9C13C1C35A55D008D25F1 /* Hats Closed Tip Room L 6_3.wav in Resources */,
 				8B0A88551C3D77D60001C689 /* Bass Drum Out 6_5.wav in Resources */,
+				8B13D8A21C3D9306005A30D9 /* Ride Tip Room R 6_4.wav in Resources */,
 				8BA491A41C0F435C00FD0645 /* Snare Down 6_3.wav in Resources */,
 				8B0A88541C3D77D60001C689 /* Bass Drum Out 6_4.wav in Resources */,
+				8B13D8B71C3D9372005A30D9 /* Ride Bell Room L 6_1.wav in Resources */,
 				8B0A88851C3D7CB40001C689 /* Hats Open OH R 6_5.wav in Resources */,
+				8B13D87F1C3D92F6005A30D9 /* Ride Tip OH L 6_5.wav in Resources */,
 				8BE9C1471C35A564008D25F1 /* Hats Closed Tip Room R 6_2.wav in Resources */,
 				8B0A88911C3D7CBC0001C689 /* Hats Open Close Mic 6_5.wav in Resources */,
 				8B0A88C11C3D7CF50001C689 /* Splash Crash Room L 6_5.wav in Resources */,
 				8BE9C16C1C35A589008D25F1 /* Hats Rock Sizzle OH R 6_3.wav in Resources */,
+				8B13D8C31C3D9379005A30D9 /* Ride Bell OH R 6_1.wav in Resources */,
 				8BE9C1001C35A512008D25F1 /* Hats Closed Shaft Room L 6_3.wav in Resources */,
 				8BFBC9541BE78B740062BE31 /* High Tom 6_1.wav in Resources */,
 				8BE9C0D71C35A4F9008D25F1 /* Hats Closed Shaft Close Mic 6_6.wav in Resources */,
@@ -4390,17 +4603,20 @@
 				8B0A886E1C3D7CA40001C689 /* Hats Open Room L 6_6.wav in Resources */,
 				8B0A88C21C3D7CF50001C689 /* Splash Crash Room L 6_6.wav in Resources */,
 				8B0A88611C3D7C9E0001C689 /* Hats Open Room R 6_5.wav in Resources */,
+				8B13D8A31C3D9306005A30D9 /* Ride Tip Room R 6_5.wav in Resources */,
 				8B0A88E11C3D7EDF0001C689 /* Crash Crash OH L 6_1.wav in Resources */,
 				8BE9C12E1C35A555008D25F1 /* Hats Closed Tip OH R 6_1.wav in Resources */,
 				8BE9C14B1C35A564008D25F1 /* Hats Closed Tip Room R 6_6.wav in Resources */,
 				8B0A88471C3D77CF0001C689 /* Bass Drum In 6_3.wav in Resources */,
 				8BE9C16D1C35A589008D25F1 /* Hats Rock Sizzle OH R 6_4.wav in Resources */,
+				8B13D8DC1C3D9383005A30D9 /* Ride Bell Close Mic 6_2.wav in Resources */,
 				8B0A884A1C3D77CF0001C689 /* Bass Drum In 6_6.wav in Resources */,
 				8329F39D17CD2499001AA834 /* SKINI.tbl in Resources */,
 				8BE9C1331C35A555008D25F1 /* Hats Closed Tip OH R 6_6.wav in Resources */,
 				8B0A88691C3D7CA40001C689 /* Hats Open Room L 6_1.wav in Resources */,
 				8B0A88CC1C3D7CFD0001C689 /* Splash Crash Room R 6_4.wav in Resources */,
 				8B0A88F01C3D7EE50001C689 /* Crash Crash OH R 6_4.wav in Resources */,
+				8B13D8AC1C3D936E005A30D9 /* Ride Bell Room R 6_2.wav in Resources */,
 				8B0A88CE1C3D7CFD0001C689 /* Splash Crash Room R 6_6.wav in Resources */,
 				8BE9C12F1C35A555008D25F1 /* Hats Closed Tip OH R 6_2.wav in Resources */,
 				8BE9C1771C35A597008D25F1 /* Hats Rock Sizzle Room L 6_2.wav in Resources */,
@@ -4410,6 +4626,8 @@
 				8BE9C0F01C35A509008D25F1 /* Hats Closed Shaft OH R 6_1.wav in Resources */,
 				8B0A885E1C3D7C9E0001C689 /* Hats Open Room R 6_2.wav in Resources */,
 				8BE9C17A1C35A597008D25F1 /* Hats Rock Sizzle Room L 6_5.wav in Resources */,
+				8B13D8D01C3D937E005A30D9 /* Ride Bell OH L 6_2.wav in Resources */,
+				8B13D8951C3D9301005A30D9 /* Ride Tip Room L 6_3.wav in Resources */,
 				8B0A88CB1C3D7CFD0001C689 /* Splash Crash Room R 6_3.wav in Resources */,
 				8BE9C1221C35A54E008D25F1 /* Hats Closed Tip OH L 6_1.wav in Resources */,
 				8B0A88991C3D7CDD0001C689 /* Splash Crash Close Mic 6_1.wav in Resources */,
@@ -4419,19 +4637,25 @@
 				8BE9C13B1C35A55D008D25F1 /* Hats Closed Tip Room L 6_2.wav in Resources */,
 				8B0A88751C3D7CAD0001C689 /* Hats Open OH L 6_1.wav in Resources */,
 				8BE9C13D1C35A55D008D25F1 /* Hats Closed Tip Room L 6_4.wav in Resources */,
+				8B13D8801C3D92F6005A30D9 /* Ride Tip OH L 6_6.wav in Resources */,
+				8B13D8AF1C3D936E005A30D9 /* Ride Bell Room R 6_5.wav in Resources */,
 				8BE9C1871C35A59C008D25F1 /* Hats Rock Sizzle Room R 6_6.wav in Resources */,
 				8BE9C1461C35A564008D25F1 /* Hats Closed Tip Room R 6_1.wav in Resources */,
 				8B0A88511C3D77D60001C689 /* Bass Drum Out 6_1.wav in Resources */,
 				8B0A889A1C3D7CDD0001C689 /* Splash Crash Close Mic 6_2.wav in Resources */,
 				8BE9C0F61C35A509008D25F1 /* Hats Closed Shaft OH R 6_7.wav in Resources */,
 				8B0A885D1C3D7C9E0001C689 /* Hats Open Room R 6_1.wav in Resources */,
+				8B13D88A1C3D92FA005A30D9 /* Ride Tip OH R 6_4.wav in Resources */,
 				8B0A88FE1C3D7EED0001C689 /* Crash Crash Room L 6_6.wav in Resources */,
 				8BE9C1601C35A584008D25F1 /* Hats Rock Sizzle OH L 6_3.wav in Resources */,
 				8B0A88771C3D7CAD0001C689 /* Hats Open OH L 6_3.wav in Resources */,
 				8B0A88FD1C3D7EED0001C689 /* Crash Crash Room L 6_5.wav in Resources */,
+				8B13D8891C3D92FA005A30D9 /* Ride Tip OH R 6_3.wav in Resources */,
 				8BE9C10F1C35A519008D25F1 /* Hats Closed Shaft Room R 6_6.wav in Resources */,
 				8BE9C0F71C35A509008D25F1 /* Hats Closed Shaft OH R 6_8.wav in Resources */,
+				8B13D8701C3D92F0005A30D9 /* Ride Tip Close Mic 6_2.wav in Resources */,
 				8BA491B11C0F436400FD0645 /* Snare Up 6_4.wav in Resources */,
+				8B13D87D1C3D92F6005A30D9 /* Ride Tip OH L 6_3.wav in Resources */,
 				8BE9C1181C35A539008D25F1 /* Hats Closed Tip Close Mic 6_3.wav in Resources */,
 				8BA491AE1C0F436400FD0645 /* Snare Up 6_1.wav in Resources */,
 				8BFBC9621BE790350062BE31 /* Mid Tom 6_3.wav in Resources */,
@@ -4440,35 +4664,44 @@
 				8BE9C1781C35A597008D25F1 /* Hats Rock Sizzle Room L 6_3.wav in Resources */,
 				8BE9C0F31C35A509008D25F1 /* Hats Closed Shaft OH R 6_4.wav in Resources */,
 				8BE9C0E11C35A503008D25F1 /* Hats Closed Shaft OH L 6_2.wav in Resources */,
+				8B13D87C1C3D92F6005A30D9 /* Ride Tip OH L 6_2.wav in Resources */,
 				8BE9C0D21C35A4F9008D25F1 /* Hats Closed Shaft Close Mic 6_1.wav in Resources */,
 				8BE9C1531C35A57D008D25F1 /* Hats Rock Sizzle Close Mic 6_2.wav in Resources */,
 				8B0A88B51C3D7CED0001C689 /* Splash Crash OH R 6_5.wav in Resources */,
 				8BE9C1171C35A539008D25F1 /* Hats Closed Tip Close Mic 6_2.wav in Resources */,
+				8B13D8B91C3D9372005A30D9 /* Ride Bell Room L 6_3.wav in Resources */,
 				8BA491A71C0F435C00FD0645 /* Snare Down 6_6.wav in Resources */,
 				8BE9C10D1C35A519008D25F1 /* Hats Closed Shaft Room R 6_4.wav in Resources */,
+				8B13D89F1C3D9306005A30D9 /* Ride Tip Room R 6_1.wav in Resources */,
 				8B0A88B21C3D7CED0001C689 /* Splash Crash OH R 6_2.wav in Resources */,
 				8BE9C13F1C35A55D008D25F1 /* Hats Closed Tip Room L 6_6.wav in Resources */,
+				8B13D8AB1C3D936E005A30D9 /* Ride Bell Room R 6_1.wav in Resources */,
 				8BE9C0E41C35A503008D25F1 /* Hats Closed Shaft OH L 6_5.wav in Resources */,
 				8B0A889C1C3D7CDD0001C689 /* Splash Crash Close Mic 6_4.wav in Resources */,
 				8B0A88BD1C3D7CF50001C689 /* Splash Crash Room L 6_1.wav in Resources */,
 				8BE9C0F51C35A509008D25F1 /* Hats Closed Shaft OH R 6_6.wav in Resources */,
 				8BE9C1851C35A59C008D25F1 /* Hats Rock Sizzle Room R 6_4.wav in Resources */,
+				8B13D8AD1C3D936E005A30D9 /* Ride Bell Room R 6_3.wav in Resources */,
 				8B0A88E31C3D7EDF0001C689 /* Crash Crash OH L 6_3.wav in Resources */,
 				8B0A88491C3D77CF0001C689 /* Bass Drum In 6_5.wav in Resources */,
 				8B0A88FA1C3D7EED0001C689 /* Crash Crash Room L 6_2.wav in Resources */,
 				8B0A88831C3D7CB40001C689 /* Hats Open OH R 6_3.wav in Resources */,
+				8B13D8CF1C3D937E005A30D9 /* Ride Bell OH L 6_1.wav in Resources */,
 				8BA491A61C0F435C00FD0645 /* Snare Down 6_5.wav in Resources */,
 				8B6C6B4A1BE7A0B300254CF5 /* Floor Tom 6_6.wav in Resources */,
 				8BE9C1251C35A54E008D25F1 /* Hats Closed Tip OH L 6_4.wav in Resources */,
 				8BE9C1271C35A54E008D25F1 /* Hats Closed Tip OH L 6_6.wav in Resources */,
 				8BE9C17B1C35A597008D25F1 /* Hats Rock Sizzle Room L 6_6.wav in Resources */,
+				8B13D8DF1C3D9383005A30D9 /* Ride Bell Close Mic 6_5.wav in Resources */,
 				8B0A88821C3D7CB40001C689 /* Hats Open OH R 6_2.wav in Resources */,
 				8BE9C0D41C35A4F9008D25F1 /* Hats Closed Shaft Close Mic 6_3.wav in Resources */,
 				8BE9C10A1C35A519008D25F1 /* Hats Closed Shaft Room R 6_1.wav in Resources */,
 				8BE9C1841C35A59C008D25F1 /* Hats Rock Sizzle Room R 6_3.wav in Resources */,
 				8B0A89081C3D7EF50001C689 /* Crash Crash Room R 6_4.wav in Resources */,
 				8B0A89051C3D7EF50001C689 /* Crash Crash Room R 6_1.wav in Resources */,
+				8B13D8AE1C3D936E005A30D9 /* Ride Bell Room R 6_4.wav in Resources */,
 				8B0A888D1C3D7CBC0001C689 /* Hats Open Close Mic 6_1.wav in Resources */,
+				8B13D8A11C3D9306005A30D9 /* Ride Tip Room R 6_3.wav in Resources */,
 				8BE9C1571C35A57D008D25F1 /* Hats Rock Sizzle Close Mic 6_6.wav in Resources */,
 				8B0A88FB1C3D7EED0001C689 /* Crash Crash Room L 6_3.wav in Resources */,
 				8BE9C1311C35A555008D25F1 /* Hats Closed Tip OH R 6_4.wav in Resources */,
@@ -4477,16 +4710,23 @@
 				8BFBC9641BE790350062BE31 /* Mid Tom 6_5.wav in Resources */,
 				8B6C6B491BE7A0B300254CF5 /* Floor Tom 6_5.wav in Resources */,
 				8BE9C0F21C35A509008D25F1 /* Hats Closed Shaft OH R 6_3.wav in Resources */,
+				8B13D8731C3D92F0005A30D9 /* Ride Tip Close Mic 6_5.wav in Resources */,
 				8BE9C10E1C35A519008D25F1 /* Hats Closed Shaft Room R 6_5.wav in Resources */,
 				8BA491B21C0F436400FD0645 /* Snare Up 6_5.wav in Resources */,
+				8B13D8881C3D92FA005A30D9 /* Ride Tip OH R 6_2.wav in Resources */,
 				8BFBC9601BE790350062BE31 /* Mid Tom 6_1.wav in Resources */,
 				8B0A88561C3D77D60001C689 /* Bass Drum Out 6_6.wav in Resources */,
 				8BE9C1491C35A564008D25F1 /* Hats Closed Tip Room R 6_4.wav in Resources */,
+				8B13D8DE1C3D9383005A30D9 /* Ride Bell Close Mic 6_4.wav in Resources */,
 				8BE9C16B1C35A589008D25F1 /* Hats Rock Sizzle OH R 6_2.wav in Resources */,
 				8BE9C16F1C35A589008D25F1 /* Hats Rock Sizzle OH R 6_6.wav in Resources */,
+				8B13D8E01C3D9383005A30D9 /* Ride Bell Close Mic 6_6.wav in Resources */,
 				8BE9C13E1C35A55D008D25F1 /* Hats Closed Tip Room L 6_5.wav in Resources */,
+				8B13D8721C3D92F0005A30D9 /* Ride Tip Close Mic 6_4.wav in Resources */,
 				8B0A88A81C3D7CE60001C689 /* Splash Crash OH L 6_4.wav in Resources */,
+				8B13D88C1C3D92FA005A30D9 /* Ride Tip OH R 6_6.wav in Resources */,
 				8B0A88AA1C3D7CE60001C689 /* Splash Crash OH L 6_6.wav in Resources */,
+				8B13D86F1C3D92F0005A30D9 /* Ride Tip Close Mic 6_1.wav in Resources */,
 				8B0A88BE1C3D7CF50001C689 /* Splash Crash Room L 6_2.wav in Resources */,
 				8BE9C1161C35A539008D25F1 /* Hats Closed Tip Close Mic 6_1.wav in Resources */,
 				8B0A88521C3D77D60001C689 /* Bass Drum Out 6_2.wav in Resources */,

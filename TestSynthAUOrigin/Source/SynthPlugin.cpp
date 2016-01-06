@@ -18,15 +18,15 @@ const char* fileName[19] = {
     "Hats Closed Tip ",
     "Hats Closed Shaft ",
     "Hats Rock Sizzle ",
-    "Hats Tight Sizzle ",
+    //    "Hats Tight Sizzle ",
     "Hats Open ",
-    "Hats Pedal ",
+    //    "Hats Pedal ",
     "Ride Tip ",
     "Ride Bell ",
     "Splash Crash ",
     "Crash Crash ",
-    "Crash Bell ",
-    "Crash Tip "
+    //    "Crash Bell ",
+    //    "Crash Tip "
 };
 const char* velocityIndex[6]{
     "1_",
@@ -80,7 +80,7 @@ void MySynth::initialise()
             }
         }
     }
-    for(int b = 0; b < 3; b++){
+    for(int b = 0; b < 8; b++){
         for(int a = 0; a < 5; a++){
             for (int x = 5; x < 6; x++){
                 for (int i = 0; i < 6; i++){
@@ -114,8 +114,8 @@ void MySynth::postProcess(float** outputBuffer, int numChannels, int numSamples)
     float* pMainOutput0 = outputBuffer[0];
     float* pMainOutput1 = outputBuffer[1];
     
-    float fLeftBuffer[12];
-    float fRightBuffer[12];
+    float fLeftBuffer[19];
+    float fRightBuffer[19];
     
     float* pfSubmix[19] = {
         pSubmix[0],
@@ -139,9 +139,9 @@ void MySynth::postProcess(float** outputBuffer, int numChannels, int numSamples)
         pSubmix[18],
     };
     
-    float fLevel[7];
-    float fPanner[7];
-    float dbFs[7] = { 0 };
+    float fLevel[8];
+    float fPanner[8];
+    float dbFs[8] = { 0 };
     
     for(int i = 0; i < 7; i++){
         fPanner[i] = getParameter(kParam16+i);
@@ -149,15 +149,16 @@ void MySynth::postProcess(float** outputBuffer, int numChannels, int numSamples)
     }
     for(int i = 0; i < 7; i++){
         dbFs[i] = fabsf(*pfSubmix[i]);
-        //        sampleCount[i] += 1;
-        //        if(sampleCount[i] == 2){
         setParameter(kParam8+i, dbFs[i]);
-        //            sampleCount[i] = 0;
-        //        }
     }
+    for(int i = 7; i < 16; i++){
+        dbFs[7] += fabsf(*pfSubmix[i]);
+        setParameter(kParam8+i, dbFs[i]);
+    }
+    
     while(numSamples--)
     {
-        for(int i = 0; i < 10; i++){
+        for(int i = 0; i < 16; i++){
             fDry[i] = *pfSubmix[i];
         }
         // Add your global effect processing here
@@ -165,17 +166,16 @@ void MySynth::postProcess(float** outputBuffer, int numChannels, int numSamples)
         for(int i = 0; i < 7; i++){
             fLeftBuffer[i] = ((fDry[i] * fLevel[i]) * (1.0 - fPanner[i]));
             fRightBuffer[i] = ((fDry[i] * fLevel[i]) * fPanner[i]);
-
         };
-        fLeftBuffer[7] = fDry[7];
-        fRightBuffer[7] = fDry[7];
-        //                fLeftBuffer *= fLevel1;
-        //                fRightBuffer *= fLevel1;
+        for(int i = 7; i < 16; i++){
+            fLeftBuffer[i] = fDry[i] * 0.5;
+            fRightBuffer[i] = fDry[i] * 0.5;
+        };
         
-        *pMainOutput0++ += fLeftBuffer[0] + fLeftBuffer[1] + fLeftBuffer[2] + fLeftBuffer[3] + fLeftBuffer[4] + fLeftBuffer[5] + fLeftBuffer[6] + fLeftBuffer[7] + fLeftBuffer[8] + fLeftBuffer[9] + fLeftBuffer[10] + fLeftBuffer[11] ;
-        *pMainOutput1++ += fRightBuffer[0] + fRightBuffer[1] + fRightBuffer[2] + fRightBuffer[3] + fLeftBuffer[4] + fLeftBuffer[5] + fLeftBuffer[6] + fLeftBuffer[7] + fLeftBuffer[8] + fLeftBuffer[9] + fRightBuffer[10] + fRightBuffer[11];
+        *pMainOutput0++ += fLeftBuffer[0] + fLeftBuffer[1] + fLeftBuffer[2] + fLeftBuffer[3] + fLeftBuffer[4] + fLeftBuffer[5] + fLeftBuffer[6] + fLeftBuffer[7] + fLeftBuffer[8] + fLeftBuffer[9] + fLeftBuffer[10] + fLeftBuffer[11] + fLeftBuffer[12] + fLeftBuffer[13] + fLeftBuffer[14] + fLeftBuffer[15];
+        *pMainOutput1++ += fRightBuffer[0] + fRightBuffer[1] + fRightBuffer[2] + fRightBuffer[3] + fLeftBuffer[4] + fLeftBuffer[5] + fLeftBuffer[6] + fLeftBuffer[7] + fLeftBuffer[8] + fLeftBuffer[9] + fRightBuffer[10] + fRightBuffer[11] + fRightBuffer[12] + fRightBuffer[13] + fRightBuffer[14] + fRightBuffer[15];
         
-        for(int i = 0; i < 10; i++){
+        for(int i = 0; i < 16; i++){
             *pfSubmix[i]++ = 0;
         }
         
@@ -209,22 +209,52 @@ void MyVoice::onStartNote (const int pitch, const float velocity)
     }
     //hats closed
     else if (pitch == 54){
-        printf("Pitch 54");
-        signalGenerator[0] = *getSynthesiser()->getCymbalBuffer(0, velocity, 0);//close
-        signalGenerator[1] = *getSynthesiser()->getCymbalBuffer(0, velocity, 1);//oh l
-        signalGenerator[2] = *getSynthesiser()->getCymbalBuffer(0, velocity, 2);//oh r
-        signalGenerator[3] = *getSynthesiser()->getCymbalBuffer(0, velocity, 3);//room l
-        signalGenerator[4] = *getSynthesiser()->getCymbalBuffer(0, velocity, 4);//room r
-
+        for(int i = 0; i < 5; i++){
+            signalGenerator[i] = *getSynthesiser()->getCymbalBuffer(0, velocity, i);
+        }
+        
     }
     //hats Rock sizzle
     else if (pitch == 56){
-        signalGenerator[0] = *getSynthesiser()->getCymbalBuffer(2, velocity, 0);//close
-        signalGenerator[1] = *getSynthesiser()->getCymbalBuffer(2, velocity, 1);//oh l
-        signalGenerator[2] = *getSynthesiser()->getCymbalBuffer(2, velocity, 2);//oh r
-        signalGenerator[3] = *getSynthesiser()->getCymbalBuffer(2, velocity, 3);//room l
-        signalGenerator[4] = *getSynthesiser()->getCymbalBuffer(2, velocity, 4);//room r
-        
+        for(int i = 0; i < 5; i++){
+            signalGenerator[i] = *getSynthesiser()->getCymbalBuffer(2, velocity, i);
+        }
+    }
+    //openHats
+    else if (pitch == 58){
+        for(int i = 0; i < 5; i++){
+            signalGenerator[i] = *getSynthesiser()->getCymbalBuffer(3, velocity, i);
+        }
+    }
+    //Crash crash
+    else if (pitch == 60){
+        for(int i = 0; i < 5; i++){
+            signalGenerator[i] = *getSynthesiser()->getCymbalBuffer(7, velocity, i);
+        }
+    }
+    //crash bell
+    
+    //crash tip
+    
+    //ride tip
+    else if (pitch == 63){
+        for(int i = 0; i < 5; i++){
+            signalGenerator[i] = *getSynthesiser()->getCymbalBuffer(4, velocity, i);
+        }
+    }
+    //ride crash
+    
+    //ride bell
+    else if (pitch == 65){
+        for(int i = 0; i < 5; i++){
+            signalGenerator[i] = *getSynthesiser()->getCymbalBuffer(5, velocity, i);
+        }
+    }
+    //splash crash
+    else if (pitch == 66){
+        for(int i = 0; i < 5; i++){
+            signalGenerator[i] = *getSynthesiser()->getCymbalBuffer(6, velocity, i);
+        }
     }
     //high tom
     else if (pitch == 57){
@@ -241,8 +271,9 @@ void MyVoice::onStartNote (const int pitch, const float velocity)
     
     else
     {
-        signalGenerator[0].reset();
-        signalGenerator[1].reset();
+//        for(int i = 0; i < 8; i++){
+//        signalGenerator[i].reset();
+//        }
     }
     
     fLevel = velocity;
@@ -276,20 +307,54 @@ bool MyVoice::process (float** outputBuffer, int numChannels, int numSamples)
             *pfSubmix[2] += signalGenerator[0].tick();
             *pfSubmix[3] += signalGenerator[1].tick();
         }
+        //hats closed tip
         else if (pitch == 54){
-            *pfSubmix[7] += signalGenerator[0].tick();
-            *pfSubmix[8] += signalGenerator[1].tick();
-            *pfSubmix[9] += signalGenerator[2].tick();
-            *pfSubmix[10] += signalGenerator[3].tick();
-            *pfSubmix[11] += signalGenerator[4].tick();
+            for(int i = 7; i < 12; i++){
+                *pfSubmix[i] += signalGenerator[i - 7].tick();
+            }
+//            *pfSubmix[7] += signalGenerator[0].tick();
+//            *pfSubmix[8] += signalGenerator[1].tick();
+//            *pfSubmix[9] += signalGenerator[2].tick();
+//            *pfSubmix[10] += signalGenerator[3].tick();
+//            *pfSubmix[11] += signalGenerator[4].tick();
         }
+        //hats sizzle
         else if (pitch == 56){
-            *pfSubmix[7] += signalGenerator[0].tick();
-            *pfSubmix[8] += signalGenerator[1].tick();
-            *pfSubmix[9] += signalGenerator[2].tick();
-            *pfSubmix[10] += signalGenerator[3].tick();
-            *pfSubmix[11] += signalGenerator[4].tick();
+            for(int i = 7; i < 12; i++){
+                *pfSubmix[i] += signalGenerator[i - 7].tick();
+            }
         }
+        //hats open
+        else if (pitch == 58){
+            for(int i = 7; i < 12; i++){
+                *pfSubmix[i] += signalGenerator[i - 7].tick();
+            }
+        }
+        //ride tip
+        else if (pitch == 63){
+            for(int i = 7; i < 12; i++){
+                *pfSubmix[i] += signalGenerator[i - 7].tick();
+            }
+        }
+        //ride bell
+        else if (pitch == 65){
+            for(int i = 7; i < 12; i++){
+                *pfSubmix[i] += signalGenerator[i - 7].tick();
+            }
+        }
+        //splash crash
+        else if (pitch == 66){
+            for(int i = 7; i < 12; i++){
+                *pfSubmix[i] += signalGenerator[i - 7].tick();
+            }
+        }
+        //crash crash
+        else if (pitch == 60){
+            for(int i = 7; i < 12; i++){
+                *pfSubmix[i] += signalGenerator[i - 7].tick();
+            }
+        }
+
         else if (pitch == 53){
             *pfSubmix[4] += signalGenerator[0].tick();
         }
@@ -300,7 +365,7 @@ bool MyVoice::process (float** outputBuffer, int numChannels, int numSamples)
             *pfSubmix[6] += signalGenerator[0].tick();
         }
         
-        for(int i = 0; i < 12; i++){
+        for(int i = 0; i < 15; i++){
             pfSubmix[i]++;
         }
         
