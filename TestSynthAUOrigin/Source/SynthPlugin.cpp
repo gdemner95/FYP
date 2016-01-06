@@ -283,7 +283,7 @@ void MyVoice::onStartNote (const int pitch, const float velocity)
 // Triggered when a note is stopped (return false to keep the note alive)
 bool MyVoice::onStopNote (){
     
-    //    noteOffEnv.release(0.5);
+//        noteOffEnv.release(0.75);
     return false;
 }
 
@@ -364,7 +364,9 @@ bool MyVoice::process (float** outputBuffer, int numChannels, int numSamples)
         else if (pitch == 57){
             *pfSubmix[6] += signalGenerator[0].tick();
         }
-        
+//        for(int i = 0; i < 15; i++){
+//            *pfSubmix[i] *= noteOffEnv.tick();
+//        }
         for(int i = 0; i < 15; i++){
             pfSubmix[i]++;
         }
@@ -373,7 +375,7 @@ bool MyVoice::process (float** outputBuffer, int numChannels, int numSamples)
         *pfOutBuffer1++ = 0;
     }
     
-    bool bActuallyEnding = !signalGenerator[0].isFinished() || !signalGenerator[1].isFinished();
+    bool bActuallyEnding = !signalGenerator[0].isFinished() || !signalGenerator[1].isFinished() || !signalGenerator[2].isFinished() || !signalGenerator[3].isFinished() || !signalGenerator[4].isFinished();
     if(!bActuallyEnding)
         printf("Note terminated.\n");
     return bActuallyEnding;
