@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "MyVoice::onStartNote(int, float):SynthPlugin.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "juce::Synthesiser::noteOff(int, int, bool):juce_Synthesiser.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "allowTailOff">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
